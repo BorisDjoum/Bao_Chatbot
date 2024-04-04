@@ -1,0 +1,270 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Yo", "Hello", "Hay"],
+     "responses": ["Hello ! How can I help you ?", "Hi, I am a bot specialized in the field of agriculture. How can I help you in this field", "Hi there", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day.", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure.", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Bao, your bot assistant specialized in the field of agriculture.", "I'm Bao, an Artificial Intelligent bot specialized in the field of agriculture."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name ?", "what should I call you", "whats your name?", "How can I call you ?"],
+    "responses": ["You can call me Bao, a bot specialized in the field of agriculture.", "I'm Bao! a bot specialized in the field of agriculture.", "Just call me as Bao. I am a chatbot specialized in the field of agriculture."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you.", "Tell me your problem to assist you", "Yes Sure, How can I support you."]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site.", "Just go to our web site and follow the guidelines to create a new account."]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you.", "Please mention your complaint, we will reach you and sorry for any inconvenience caused."]
+    },
+    {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+    },
+    {"tag": "buy",
+    "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
+    "responses": ["Please visit our website https://www.espaceagro.com/cameroun-semences/exp-cameroun-semences.html."]
+    },
+    {"tag": "sell",
+    "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to sell product?" , "how farmer can sell their product?"],
+    "responses": ["Please visit our website https://www.espaceagro.com/cameroun-semences/exp-cameroun-semences.html."]
+    },
+    {"tag": "opentoday",
+    "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
+    },
+    {"tag": "family",
+    "patterns": ["Who is your father?", "What is your father's name?", "What is your mother's name?","Do you have parents?" ,"Do you have siblings?" ],
+    "responses": ["i don't have knowledge about my family."]
+    },
+    {"tag": "sarcasm",
+    "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I your friend?"],
+    "responses": ["i'm not able to understand your question.", "Please ask some related questions."]
+    },
+    {"tag": "wellness",
+    "patterns": ["How are you?", "How you doing?", "How are you doing?","Are you doing well?", "Are you okay?" ,"Are you fine?","Are you doing okay?"],
+    "responses": ["i'm cool.", "always cool.", "i'm ok.", "i'm fine."]
+    },
+    {"tag": "enquireaboutday",
+    "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
+    "responses": ["It's been great.", "It's been good."]
+    },
+    {"tag": "defineagriculture",
+    "patterns": ["what is agriculture ?", "what does it mean to farm?", "What is the agricultural sector?", "What is farming?"],
+    "responses": ["the science or practice of farming, including cultivation of the soil for the growing of crops and the rearing of animals to provide food, wool, and other products.", "Agriculture is the art and science of cultivating the soil, growing crops and raising livestock.", "Agriculture can be defined as the art, science, and business of cultivating crops and livestock for economic purposes."]
+    },
+    {"tag": "askinghelp",
+    "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
+    "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
+    },
+    {"tag": "outofscope",
+    "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
+    "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
+    },
+    {"tag": "cottonweather",
+    "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temperature for cotton ", "temperature require for cotton crop?"],
+    "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+    },
+    {"tag": "cottoncondition",
+    "patterns": ["which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production"],
+    "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+    },
+    {"tag": "wheatweather",
+    "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
+    "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+    },
+    {"tag": "wheatcondition",
+    "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
+    "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+    },
+    {"tag": "bajraweather",
+    "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
+    "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+    },
+    {"tag": "bajracondition",
+    "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for bajra crop"],
+    "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
+    },
+    {"tag": "sugercaneweather",
+    "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
+    "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+    },
+    {"tag": "sugercanecondition",
+    "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+    "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+    },
+    {"tag": "riceweather",
+    "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+    "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+    },
+    {"tag": "ricecondition",
+    "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+    "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+    },
+    {"tag": "groundnutweather",
+    "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+    "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+    },
+    {"tag": "groundnutcondition",
+    "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+    "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+    },
+    {"tag": "marketprice",
+    "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
+    "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+    },
+    {"tag": "wassup",
+    "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
+    "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+    },
+    {"tag": "maizeweather",
+    "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
+    },
+    {"tag": "maizecondition",
+    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+    },
+    {"tag": "tomatoweather",
+    "patterns": ["which weather is suitable for tomato?", "what is temperature for tomato crop?", "tomato crop grows in which temperature?", "temperature for tomato ", "temperature require for tomato crop?"],
+    "responses": ["During active growth, the ideal air temperature is 70 to 80.6°F (21-27°C).", "ideal air temperature is 70 to 80.6°F.", "21-27°C temperature is required."]
+    },
+    {"tag": "tomatocondition",
+    "patterns": ["which condition is suitable for tomato crop?", "which condition required for tomato crop?", "condition for tomato crop", "condition suitable for tomato", "condition for more tomato crop production"],
+    "responses": ["It require a lot of heat and plenty of sunshine.", "Tomatoes are warm- and sun-loving plants. Full sun for at least 8 hours a day is essential for growing healthy crops.","Tomatoes grow in relatively warm temperatures."]
+    },
+    {"tag": "onionweather",
+    "patterns": ["which weather is suitable for onion?", "what is temperature for onion crop?", "onion grows in which temperature?","temperature for onion", "temperature require for onion crop?"],
+    "responses": ["The optimum growing temperature is about 16°C to 21.", "the ideal air temperature is 60.8 to 70°F (16-21°C)"]
+    },
+    {"tag": "onioncondition",
+    "patterns": ["which condition is suitable for onion crop?", "which condition required for onion crop?", "condition for onion crop", "condition suitable for onion", "condition for more onion crop production", "which land is suitable for onion crop"],
+    "responses": ["The best performance can be obtained in a mild weather without the extremes of cold and heat and excessive rainfall.", "Onion is a temperate crop but can be grown under a wide range of climatic conditions such as temperate, tropical and subtropical climate.", "Choosing a sunny area where your onion plants are won’t be shaded is beneficial for your plants."]
+    },
+    {"tag": "carrotweather",
+    "patterns": ["which weather is suitable for carrot?", "what is temperature for carrot crop?", "carrot grows in which temperature?", "temperature for carrot", "temperature require for carrot crop?"],
+    "responses": ["Ideal temperature for carrot cultivation is between 16°C to 21°C.", "temperature is between 16°C to 21°C."]
+    },
+    {"tag": "carrotcondition",
+    "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for condition crop"],
+    "responses": ["Carrots need well-drained, well-cultivated soil. ", "Carrots prefer fertile, well-drained, deep, sandy soils rich in organic matter for best growth.", "Carrots grow best in full sun and cool temperatures."]
+    },
+    {"tag": "leekweather",
+    "patterns": ["which weather is suitable for leek?", "what is temperature for leek crop?", "leek grows in which temperature?","temperature for leek"],
+    "responses": ["temperature is between 16°C to 21°C", "It grows well in hot and humid climate with a temperature of 16°C to 21°C "]
+    },
+    {"tag": "leekcondition",
+    "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+    "responses": ["A well-drained, light-textured soil makes planting and harvesting easy and contributes to production of clean and presentable produce.", "Leeks prefer a deep, fertile, friable soil with plenty of organic matter.", "Leeks are a cool-season crop, so are well suited for cultivation in Wisconsin."]
+    },
+    {"tag": "lettuceweather",
+    "patterns": ["which weather is suitable for lettuce?", "what is temperature for lettuce crop?", "lettuce grows in which temperature?","temperature for lettuce"],
+    "responses": ["The average temperature required throughout the life period of the crop ranges from 16°C to 21°C.", "the average temperature is between 16°C to 21°C"]
+    },
+    {"tag": "lettucecondition",
+    "patterns": ["which condition is suitable for lettuce crop?", "which condition required for lettuce crop?", "condition for lettuce crop","condition suitable for lettuce"],
+    "responses": ["Warm climate lettuce grows well","Lettuce grows well in warm climates.", "Butterhead lettuce does well in warm climates.", "Lettuce does well in a warm climate."]
+    },
+    {"tag": "cabbageweather",
+    "patterns": ["which weather is suitable for cabbage?", "what is temperature for cabbage crop?", "cabbage grows in which temperature?","temperature for cabbage"],
+    "responses": ["It seems that plant will grow best when the mean temperature is from 12-23°C.", "It grows well with a temperature of 12°C to 23°C "]
+    },
+    {"tag": "cabbagecondition",
+    "patterns": ["which condition is suitable for cabbage crop?", "which condition required for cabbage crop?", "condition for cabbage crop","condition suitable for cabbage"],
+    "responses": ["Cabbage is a cool season crop.", "Cabbage prefers cold and humid growing conditions."]
+    },
+
+    {"tag": "cucumberweather",
+    "patterns": ["what is temperature for cucumber crop?", "cucumber grows in which temperature?", "temperature for cucumber"],
+    "responses": ["A temperature of 18°C- 22°C.", "A temperature of 18°C- 22°C is suitable for its cultivation."]
+    },
+    {"tag": "cucumbercondition",
+    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+    "responses": ["Cucumber plants are deep-rooted crops, which grow best in well- drained, fertile, soil that is low in soluble salts and free of soil-borne diseases.", "Most cucumbers are grown under rainfed conditions.", "In most cases, cucumber production is rain-fed.", "In most cases, production of cucumber is under rainfed condition"]
+    },
+
+    {"tag": "bellpepperweather",
+    "patterns": ["what is temperature for bell pepper crop?", "bell pepper grows in which temperature?", "temperature for bell pepper"],
+    "responses": ["A temperature of 15°C- 25°C.", "A temperature of 15°C- 25°C is suitable for its cultivation."]
+    },
+
+
+    {"tag": "bellpeppercondition",
+    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+    "responses": ["bell pepper grows well in warm climates.", "bell pepper does well in a warm climate.", "Warm climate lettuce grows well."]
+    },
+
+    {"tag": "ndoleweather",
+    "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+    "responses": ["A temperature of 30°C is suitable for its cultivation.", "A temperature of 30°C is suitable for its cultivation."]
+    },
+    {"tag": "ndolecondition",
+    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+    },
+
+    {"tag": "celeryweather",
+    "patterns": ["what is temperature for celery crop?", "celery grows in which temperature?", "temperature for celery"],
+    "responses": ["It seems that plant will grow best when the mean temperature is lower than 15°C.", "It grows well with a temperature lower 15°C "]
+    },
+    {"tag": "celerycondition",
+    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+    "responses": ["Celery production is best in a cool, humid and long growing season with an ample and uniform supply of moisture.", "It grows well with a temperature lower 15°C Celery production is best in a cool, humid and long growing season.", "Celery production is at its best in a cool, humid climate with a long growing season."]
+    },
+
+    {"tag": "eggplantweather",
+    "patterns": ["what is temperature for eggplant crop?", "eggplant grows in which temperature?", "temperature for eggplant"],
+    "responses": ["A temperature lower than 18°C is suitable for its cultivation.", "A temperature lower than 18°C is suitable for its cultivation."]
+    },
+
+
+    {"tag": "eggplantcondition",
+    "patterns": ["which condition is suitable for eggplant crop?", "which condition required for eggplant crop?", "condition suitable for eggplant", "land for eggplant crop"],
+    "responses": ["The eggplant is a warm-weather.", "Climatic conditions suitable for growing Gboma eggplant include a tropical sub-humid climate.",  "It requires well-drained soils with good organic matter content."]
+    },
+
+    {"tag": "okraweather",
+    "patterns": ["what is temperature for okra crop?", "okra grows in which temperature?", "temperature for okra"],
+    "responses": ["A temperature of 15°C- 20°C is suitable for its cultivation.", "A temperature of 15°C- 20°C is suitable for its cultivation."]
+    },
+    {"tag": "okracondition",
+    "patterns": ["which condition is suitable for okra crop?", "which condition required for okra crop?", "condition suitable for okra", "land for okra crop."],
+    "responses": ["Okra requires a long, warm and humid growing climate for better yield.", "Okra needs a long, warm and humid growing climate for better yields.", "For a better yield, okra needs a long, warm and humid growing climate.", "Okra needs a growing climate that is long, warm and humid for a better yield."]
+    },
+    {"tag": "best practices ", 
+    "patterns": ["How to apply NPK fertilizer?", "give me an idea to apply fertilizer", "Can you tell me how to apply NPK fertilizer?", "What are the ways to apply NPK Fertilizer?", "I need a support to apply NPK fertilizer ", "I need a help to apply NPK fertilizer ", "support me please to apply NPK fertilizer "], 
+    "responses": ["In split doses, one half at or shortly after planting and the rest at 2 to 3 months after planting."] 
+    },  
+    {"tag": "best practices ", 
+    "patterns": ["Which month is best to plant cassava ", "the best month to cultivate Cassava ", " I want to know the best time to plant cassava "], 
+    "responses": ["At the beginning of raining season (March to April)."] }, 
+    {"tag": "best practices ", 
+    "patterns": ["Which cassava cutting has resistant to mosaic disease?", "tell me mosaic resistant cutting?", "I want to know cutting that is resistant to mosaic disease", "cassava cutting that has resistant to mosaic infection?"],
+    "responses": ["farmer pride and TME 419 has resistant to mosaic."] 
+    }, 
+    {"tag": "best practices ", 
+    "patterns": ["What  type of  soil is  best for growing  cassava?", "the best  soil for  cassava?", "what soil  is good  for growing cassava?", "tell me the soil type is good for cassava? "], 
+    "responses": ["light sandy loam or loamy soil."]   
+}, 
+    {"tag": "Fertilizer Application ",
+    "patterns": ["Fertilizer Application ", "how to apply fertilizer", "I want to apply fertilizer", "How to apply NPK fertilizer "],
+    "responses": ["NKP fertilizer can be applied in split doses, one half at or shortly after planting and the rest at 2 to 3 month after planting.", "shortly after planting and the rest at 2 to 3 month after planting.", "In a ring, 6 cm wide and 10cm from the plant 8 weeks after planting."
+
+]
+}
+]}
+
