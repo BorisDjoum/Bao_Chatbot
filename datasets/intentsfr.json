@@ -1,0 +1,384 @@
+{"intents": [
+    {
+    "tag":"salutation",
+    "patterns":[
+    "Bonjour",
+    "Salut",
+    "Coucou",
+    "Hey",
+    "Bonjour, quelqu'un est là ?",
+    "Hello",
+    "Salutations"
+    ],
+    "responses":[
+    "Bonjour ! Comment puis-je vous aider ?",
+    "Salut ! Je suis là pour vous aider. Que puis-je faire pour vous ?",
+    "Salut, comment puis-je vous assister ?",
+    "Bonjour ! En quoi puis-je vous être utile ?"
+    ]
+    },
+    {
+    "tag":"Aurevoir",
+    "patterns":[
+    "Au revoir",
+    "Adieu",
+    "À bientôt",
+    "À plus tard"
+    ],
+    "responses":[
+    "Au revoir ! Passez une excellente journée.",
+    "À bientôt ! Prenez soin de vous.",
+    "Au revoir ! Revenez quand vous voulez.",
+    "À plus tard ! N'hésitez pas à revenir si vous avez d'autres questions."
+    ]
+    },
+    {
+    "tag":"remerciements",
+    "patterns":[
+    "Merci",
+    "Merci beaucoup",
+    "C'est très gentil",
+    "Je te remercie", "Tu es le meilleur!"
+    ],
+    "responses":[
+    "De rien ! Je suis là pour vous aider.",
+    "Je suis ravi d'avoir pu vous aider !",
+    "Avec plaisir ! N'hésitez pas si vous avez besoin de plus d'assistance.",
+    "Vous êtes les bienvenus !"
+    ]
+    },
+    {
+    "tag":"apropos",
+    "patterns":[
+    "Qui es-tu ?",
+    "Qu'est-ce que tu es ?",
+    "Peux-tu te présenter ?",
+    "Qui es-tu réellement ?"
+    ],
+    "responses":["Je suis Bao, votre assistant bot spécialisé dans le domaine de l'agriculture", "Je suis Bao, un bot à intelligence artificielle spécialisé dans le domaine de l'agriculture."
+    ]
+    },
+    {
+    "tag":"nom",
+    "patterns":[
+    "Comment tu t'appelles ?",
+    "Quel est ton nom ?",
+    "Je voudrais connaître ton nom",
+    "Comment dois-je t'appeler ?"
+    ],
+    "responses":[
+    "Je suis Bao, votre assistant bot spécialisé dans le domaine de l'agriculture", "Je suis Bao, un bot à intelligence artificielle spécialisé dans le domaine de l'agriculture."       
+]
+    },
+    {
+    "tag":"aide",
+    "patterns":["Peux-tu m'aider ?","J'ai besoin d'aide","S'il te plaît, aide-moi","Je ne sais pas quoi faire, peux-tu m'assister ?","J'ai besoin d'aide dans le domaine de l'agriculture."
+    ],
+    "responses":[
+    "Bien sûr ! Je suis là pour vous aider. Quelle et votre question ou votre préoccupation ?",
+    "Absolument ! Dites-moi ce dont vous avez besoin et je ferai de mon mieux pour vous assister.",
+    "Je suis là pour vous aider. Expliquez-moi en détail ce qui vous préoccupe.",
+    "Je suis à votre disposition pour vous fournir toute l'aide dont vous avez besoin. Que puis-je faire pour vous ?"
+    ]
+    },
+    {
+    "tag":"creercompte",
+    "patterns":[
+    "Je souhaite créer un nouveau compte",
+    "Comment puis-je ouvrir un nouveau compte ?",
+    "Je voudrais créer un compte",
+    "Peux-tu m'aider à créer un compte ?"
+    ],
+    "responses":[
+    "Vous pouvez facilement créer un nouveau compte sur notre site web. Suivez les instructions fournies pour vous inscrire.",
+    "Pour créer un nouveau compte, rendez-vous sur notre site web et suivez les étapes d'inscription.",
+    "Pour ouvrir un nouveau compte, visitez notre site web et cherchez l'option d'inscription. Suivez les indications pour créer votre compte.",
+    "Je vous recommande de vous rendre sur notre site web pour créer un nouveau compte. Vous y trouverez les instructions nécessaires."
+    ]
+    },
+    {
+    "tag":"salutation",
+    "patterns":[
+    "Bonjour",
+    "Salut",
+    "Coucou",
+    "Hey",
+    "Bonjour, quelqu'un est là ?",
+    "Hello",
+    "Salutations"
+    ],
+    "responses":[
+    "Bonjour ! Comment puis-je vous aider ?",
+    "Salut ! Je suis là pour vous aider. Que puis-je faire pour vous ?",
+    "Salut, comment puis-je vous assister ?",
+    "Bonjour ! En quoi puis-je vous être utile ?"
+    ]
+    },
+    {
+    "tag":"adieu",
+    "patterns":[
+    "Au revoir",
+    "Adieu",
+    "À bientôt",
+    "À plus tard"
+    ],
+    "responses":[
+    "Au revoir ! Passez une excellente journée.",
+    "À bientôt ! Prenez soin de vous.",
+    "Au revoir ! Revenez quand vous voulez.",
+    "À plus tard ! N'hésitez pas à revenir si vous avez d'autres questions."
+    ]
+    },
+    {
+    "tag":"remerciements",
+    "patterns":[
+    "Merci",
+    "Merci beaucoup",
+    "C'est très gentil",
+    "Je te remercie"
+    ],
+    "responses":[
+    "De rien ! Je suis là pour vous aider.",
+    "Je suis ravi d'avoir pu vous aider !",
+    "Avec plaisir ! N'hésitez pas si vous avez besoin de plus d'assistance.",
+    "Vous êtes les bienvenus !"
+    ]
+    },
+    {
+    "tag":"aide",
+    "patterns":[
+    "Peux-tu m'aider ?",
+    "J'ai besoin d'aide",
+    "S'il te plaît, aide-moi",
+    "Je ne sais pas quoi faire, peux-tu m'assister ?"
+    ],
+    "responses":[
+    "Bien sûr ! Je suis là pour vous aider. Quelle est votre question ou votre préoccupation ?",
+    "Absolument ! Dites-moi ce dont vous avez besoin et je ferai de mon mieux pour vous assister.",
+    "Je suis là pour vous aider. Expliquez-moi en détail ce qui vous préoccupe.",
+    "Je suis à votre disposition pour vous fournir toute l'aide dont vous avez besoin. Que puis-je faire pour vous ?"
+    ]
+},
+
+    {"tag": "horaires",
+        "patterns": ["Quels sont vos horaires d'ouverture ?", "Quelles sont vos heures d'ouverture ?", "Quand êtes-vous ouvert ?" ],
+        "responses": ["Nous sommes ouverts tous les jours de septs jours sur septs."]
+    },
+    {"tag": "acheter",
+    "patterns": ["Comment puis-je acheter des cultures en ligne ?", "Comment puis-je acheter des cultures directement auprès des agriculteurs ?" ],
+    "responses": ["Veuillez visiter notre site web https://www.espaceagro.com/cameroun-semences/exp-cameroun-semences.html."]
+    },
+    {"tag": "vendre",
+    "patterns": ["Comment puis-je vendre des cultures en ligne ?", "Comment puis-je vendre mes cultures ?", "Quelle est la meilleure façon de vendre un produit ?", "Comment les agriculteurs peuvent-ils vendre leurs produits ?"],
+    "responses": ["Veuillez visiter le site web https://www.espaceagro.com/cameroun-semences/exp-cameroun-semences.html."]
+    },
+    {"tag": "ouvertaujourd'hui",
+    "patterns": ["Êtes-vous ouvert aujourd'hui ?", "À quelle heure ouvrez-vous aujourd'hui ?", "Quels sont vos horaires aujourd'hui ?"],
+    "responses": ["Nous sommes ouverts tous les jours de 9h à 21h.", "Nos horaires sont de 9h à 21h tous les jours."]
+    },
+    {"tag": "famille",
+    "patterns": ["Qui est ton père ?", "Quel est le nom de ton père ?", "Quel est le nom de ta mère ?", "As-tu des parents ?", "As-tu des frères et sœurs ?"],
+    "responses": ["Je n'ai pas de connaissances sur ma famille.","Je ne suis pas capable de comprendre ta question.", "Veuillez poser des questions liées au domaine de l'agriculture, pour que je sois à mesure de vous répondre."]
+    },
+    {"tag": "sarcasme",
+    "patterns": ["Es-tu un Dieu ?", "Quel âge as-tu ?", "Es-tu un homme ?", "Es-tu un bot ?", "As-tu un emploi ?", "Qui est ton meilleur ami ?", "Suis-je ton ami ?"],
+    "responses": ["Je ne suis pas capable de comprendre ta question.", "Veuillez poser des questions liées au domaine de l'agriculture pour que je sois capable de vous apporter mon aide."]
+    },
+    {"tag": "bienêtre",
+    "patterns": ["Comment ça va ?", "Comment vas-tu ?", "Comment ça se passe ?", "Vas-tu bien ?", "Ça va ?", "Ça va bien ?", "Tu vas bien ?"],
+    "responses": ["En tant qu'intelligence artificielle, je n'ai pas de sentiments, mais dison que je vais bien. Comment puis-je t'aider ?", "Toujours bien. Comment puis-je vous aider ?", "Je vais bien. Comment puis-je vous aider ?", "Je vais bien. Comment puis-je vous aider ?"]
+    },
+    {"tag": "deroulementjournée",
+    "patterns": ["Comment s'est passée ta journée ?", "Comment se passe ta journée ?", "Comment va ta journée ?"],
+    "responses": ["En tant qu'intelligence artificielle, je n'ai pas de conscience ni d'expérience personnelle, donc je n'ai pas de journée au sens où les êtres humains l'entendent. Je suis ici pour fournir des informations et aider avec les questions que vous pourriez avoir. Comment puis-je vous assister aujourd'hui ?"]
+    },
+    {"tag": "définitionagriculture",
+    "patterns": ["Qu'est-ce que l'agriculture ?", "Que signifie cultiver ?", "Qu'est-ce que le secteur agricole ?", "Qu'est-ce que l'agriculture ?"],
+    "responses": ["La science ou la pratique de l'agriculture, comprenant la culture du sol pour la production de cultures et l'élevage d'animaux pour fournir de la nourriture, de la laine et d'autres produits.", "L'agriculture est l'art et la science de cultiver le sol, de faire pousser des cultures et d'élever du bétail.", "L'agriculture peut être définie comme l'art, la science et l'activité commerciale de cultiver des cultures et d'élever du bétail à des fins économiques."]
+    },
+    {"tag": "demandeaide",
+    "patterns": ["J'ai besoin d'aide !","Besoin d'aide !", "Aidez-moi s'il vous plaît", "Aidez-moi", "Pouvez-vous faire quelque chose pour moi ?", "Répondez à ma question"],
+    "responses": ["Je suis là pour vous aider.", "Je peux vous aider.", "Je suis là pour résoudre vos problèmes."]
+    },
+    {"tag": "horscontexte",
+    "patterns": ["Qui est le Président ?", "Qui est le Premier Ministre ?", "Quel est le nom de ma mère ?", "Es-tu un partisan du BJP ?", "Es-tu actif en politique ?"],
+    "responses": ["Votre question dépasse mes connaissances.", "Je ne suis pas en mesure de répondre à votre question.", "Je n'ai pas de connaissances à ce sujet."]
+    },
+    {"tag": "climatcoton",
+    "patterns": ["Quel temps convient au coton ?", "Quelle est la température idéale pour la culture du coton ?", "Dans quelle température le coton pousse-t-il ?", "Température pour le coton", "Quelle température est nécessaire pour la culture du coton ?"],
+    "responses": ["Pendant la croissance active, la température idéale de l'air est de 21 à 37°C.", "La température idéale de l'air est de 21 à 37°C.", "Une température de 21 à 37°C est requise."]
+    },
+
+    {"tag": "conditioncoton",
+    "patterns": ["Quelles conditions conviennent à la culture du coton ?", "Quelles conditions sont requises pour la culture du coton ?", "Conditions pour la culture du coton", "Conditions adaptées au coton", "Conditions pour une production accrue de coton"],
+    "responses": ["Il nécessite beaucoup de chaleur et beaucoup de soleil.", "Il préfère un climat chaud et humide.", "Le coton est une plante qui a besoin d'une longue période sans gel."]
+    },
+    {"tag": "climatblé",
+    "patterns": ["Quel temps convient au blé ?", "Quelle est la température idéale pour la culture du blé ?", "Dans quelle température le blé pousse-t-il ?", "Température pour le blé", "Quelle température est nécessaire pour la culture du blé ?"],
+    "responses": ["La température de croissance optimale est d'environ 25°C.", "Températures minimales et maximales de croissance de 3° à 4°C et de 30° à 32°C, respectivement."]
+    },
+    {"tag": "conditionblé",
+    "patterns": ["Quelles sont les conditions appropriées pour la culture du blé ?", "Quelles sont les conditions requises pour la culture du blé ?", "Conditions pour la culture du blé", "Conditions favorables au blé", "Conditions pour une production accrue de blé", "Quel type de sol est propice à la culture du blé ?"],
+    "responses": ["Il faut 12 à 15 pouces (31 à 38 centimètres) d'eau pour obtenir une bonne récolte.", "Il a besoin de beaucoup de soleil, surtout lorsque les grains se remplissent.", "Il pousse mieux lorsque le pH du sol est compris entre 6,0 et 7,0."]
+    },
+    {"tag": "climatmil",
+    "patterns": ["Quel temps est propice au millet ?", "Quelle est la température idéale pour la culture du millet ?", "Dans quelle température le millet pousse-t-il ?", "Température pour la culture du millet", "Température requise pour la culture du millet ?"],
+    "responses": ["La température idéale pour la culture du millet est comprise entre 20 °C et 30 °C.", "La température est comprise entre 20 °C et 30 °C."]
+    },
+    {"tag": "conditionmil",
+    "patterns": ["Quelles sont les conditions appropriées pour la culture du millet ?", "Quelles sont les conditions requises pour la culture du millet ?", "Conditions pour la culture du millet", "Quel type de sol est propice à la culture du millet ?"],
+    "responses": ["Le millet pousse bien dans des conditions climatiques sèches et chaudes.", "C'est une culture tolérante à la sécheresse qui nécessite une faible pluviométrie annuelle comprise entre 40 cm et 60 cm.", "Je suis là pour répondre à vos questions."]
+    },
+    {"tag": "climat de la canne à sucre",
+    "patterns": ["Quel temps est propice à la canne à sucre ?", "Quelle est la température idéale pour la culture de la canne à sucre ?", "Dans quelle température la canne à sucre pousse-t-elle ?", "Température pour la canne à sucre"],
+    "responses": ["La température est comprise entre 21°C et 27°C.", "Elle pousse bien dans un climat chaud et humide avec une température de 21°C à 27°C."]
+    },
+    {"tag": "condition de la canne à sucre",
+    "patterns": ["Quelles sont les conditions appropriées pour la culture de la canne à sucre ?", "Quelles sont les conditions requises pour la culture de la canne à sucre ?", "Conditions pour la culture de la canne à sucre", "Conditions favorables à la canne à sucre"],
+    "responses": ["Il faut une pluviométrie annuelle comprise entre 75 cm.", "C'est une culture tropicale et subtropicale.", "Elle pousse bien dans un climat chaud et humide avec une température de 21°C à 27°C."]
+    },
+    {"tag": "climatriz",
+    "patterns": ["Quel temps est propice au riz ?", "Quelle est la température idéale pour la culture du riz ?", "Dans quelle température le riz pousse-t-il ?", "Température pour le riz"],
+    "responses": ["La température moyenne requise tout au long du cycle de vie de la plante varie de 21 à 37 °C.", "La température moyenne est comprise entre 21 et 37 °C."]
+    },
+    {"tag": "conditionriz",
+    "patterns": ["Quelles sont les conditions appropriées pour la culture du riz ?", "Quelles sont les conditions requises pour la culture du riz ?", "Conditions pour la culture du riz", "Conditions favorables au riz"],
+    "responses": ["La culture du riz nécessite un climat chaud et humide.", "Le riz pousse sur une variété de sols tels que les limons, les loams et les graviers.", "Il convient mieux aux régions présentant une forte humidité, un ensoleillement prolongé et une alimentation en eau garantie.", "La température moyenne requise tout au long du cycle"]
+    },
+
+    {"tag": "quoideneuf",
+    "patterns": ["Quoi de neuf ?", "Que fais-tu ?", "Qu'est-ce qui se passe ?", "Que deviens-tu ?", "Comment ça va ?"],
+    "responses": ["Je me détends simplement.", "Je profite de la journée.", "Je vais bien."]
+    },
+    {"tag": "climatmaïs",
+    "patterns": ["Quelle est la température pour la culture du maïs ?", "Dans quelle température le maïs pousse-t-il ?", "Température pour le maïs"],
+    "responses": ["Une température de 21°C à 27°C et des précipitations de 50 à 100 cm sont propices à sa culture.", "Une température de 21°C à 27°C est propice à sa culture."]
+    },
+    {"tag": "conditionmaïs",
+    "patterns": ["Quelles conditions conviennent à la culture du maïs ?", "Quelles conditions sont nécessaires pour la culture du maïs ?", "Conditions propices au maïs", "Terrain pour la culture du maïs"],
+    "responses": ["Une température de 21°C à 27°C et des précipitations de 50 à 100 cm sont propices à sa culture.", "Des précipitations de 50 à 100 cm sont propices à sa culture.", "Des alternances de pluie et de temps ensoleillé sont idéales pour le maïs.", "Il pousse bien dans les sols alluviaux et les sols rouges bien drainés."]
+    },
+    {"tag": "climattomate",
+    "patterns": ["Quel climat convient aux tomates ?", "Quelle est la température pour la culture de la tomate ?", "Dans quelle température la tomate pousse-t-elle ?", "Température pour la tomate", "Température requise pour la culture de la tomate ?"],
+    "responses": ["Pendant la croissance active, la température de l'air idéale est de 21 à 27°C.", "La température de l'air idéale est de 21 à 27°C.", "Une température de 21 à 27°C est requise."]
+    },
+    {"tag": "conditiontomate",
+    "patterns": ["Quelles conditions conviennent à la culture de la tomate ?", "Quelles conditions sont nécessaires pour la culture de la tomate ?", "Conditions pour la culture de la tomate", "Conditions propices à la tomate", "Conditions pour une production accrue de tomates"],
+    "responses": ["Elle nécessite beaucoup de chaleur et beaucoup de soleil.", "Les tomates sont des plantes qui aiment la chaleur et le soleil. Au moins 8 heures de plein soleil par jour sont essentielles pour une culture saine.", "Les tomates poussent dans des températures relativement chaudes."]
+    },
+    {"tag": "climatoignon",
+    "patterns": ["Quel climat convient aux oignons ?", "Quelle est la température pour la culture de l'oignon ?", "Dans quelle température l'oignon pousse-t-il ?", "Température pour l'oignon", "Température requise pour la culture de l'oignon ?"],
+    "responses": ["La température de croissance optimale est d'environ 16°C à 21°C.", "La température idéale de l'air est de 16 à 21°C."]
+    },
+    {"tag": "conditionoignon",
+    "patterns": ["Quelles conditions conviennent à la culture de l'oignon ?", "Quelles conditions sont nécessaires pour la culture de l'oignon ?", "Conditions pour la culture de l'oignon", "Conditions propices à l'oignon", "Conditions pour une production accrue d'oignons", "Quel type de terrain convient à la culture de l'oignon ?"],
+    "responses": ["Les meilleures performances sont obtenues dans un climat doux sans extrêmes de froid et de chaleur et sans précipitations excessives.", "L'oignon est une plante tempérée, mais peut être cultivé dans une large gamme de conditions climatiques telles que le climat tempéré, tropical et subtropical.", "Choisir une zone ensoleillée où vos plants d'oignon ne seront pas ombragés est bénéfique pour vos plantes."]
+    },
+    {"tag": "climatcarotte",
+    "patterns": ["Quel climat convient aux carottes ?", "Quelle est la température pour la culture de la carotte ?", "Dans quelle température la carotte pousse-t-elle ?", "Température pour la carotte", "Température requise pour la culture de la carotte ?"],
+    "responses": ["La température idéale pour la culture des carottes est comprise entre 16°C et 21°C.", "La température est comprise entre 16°C et 21°C."]
+    },
+    {"tag": "conditioncarotte",
+    "patterns": ["Quelles conditions conviennent à la culture du maïs ?", "Quelles conditions sont nécessaires pour la culture du maïs ?", "Conditions pour la culture du maïs", "Quel type de terrain convient aux conditions de culture ?"],
+    "responses": ["Les carottes ont besoin d'un sol bien drainé et bien cultivé.", "Les carottes préfèrent les sols fertiles, bien drainés, profonds et sablonneux, riches en matière organique pour une meilleure croissance.", "Les carottes poussent mieux en plein soleil et par temps frais."]
+    },
+    {"tag": "climatpoireau",
+    "patterns": ["Quel climat convient aux poireaux ?", "Quelle est la température pour la culture du poireau ?", "Dans quelle température le poireau pousse-t-il ?", "Température pour le poireau"],
+    "responses": ["La température est comprise entre 16°C et 21°C", "Il pousse bien dans un climat chaud et humide avec une température de 16°C à 21°C."]
+    },
+    {"tag": "conditionpoireau",
+    "patterns": ["Quelles conditions conviennent à la culture de la canne à sucre ?", "Quelles conditions sont nécessaires pour la culture de la canne à sucre ?", "Conditions pour la culture de la canne à sucre", "Conditions propices à la canne à sucre"],
+    "responses": ["Un sol bien drainé et de texture légère facilite la plantation et la récolte, et contribue à la production de produits propres et présentables.", "Les poireaux préfèrent un sol profond, fertile, friable et riche en matière organique.", "Les poireaux sont des cultures de saison fraîche et conviennent donc bien à la culture dans le Wisconsin."]
+    },
+
+    {"tag": "climatlaitue",
+        "patterns": ["Quel temps convient à la culture de la laitue ?", "Quelle est la température pour la culture de la laitue ?", "À quelle température pousse la laitue ?", "Température pour la laitue"],
+        "responses": ["La température moyenne requise pendant toute la période de croissance de la culture varie de 16°C à 21°C.", "La température moyenne se situe entre 16°C et 21°C."]
+    },
+    {"tag": "conditionlaitue",
+        "patterns": ["Quelles conditions conviennent à la culture de la laitue ?", "Quelles conditions sont requises pour la culture de la laitue ?", "Conditions pour la culture de la laitue", "Conditions favorables à la laitue"],
+        "responses": ["La laitue pousse bien dans un climat chaud.", "La laitue pousse bien dans les climats chauds.", "La laitue pousse bien dans un climat chaud."]
+    },
+    {"tag": "climatchou",
+        "patterns": ["Quel temps convient au chou ?", "Quelle est la température pour la culture du chou ?", "À quelle température pousse le chou ?", "Température pour le chou"],
+        "responses": ["Il semble que la plante se développe le mieux lorsque la température moyenne est de 12 à 23°C.", "Elle se développe bien avec une température de 12°C à 23°C."]
+    },
+    {"tag": "conditionschou",
+        "patterns": ["Quelles conditions conviennent à la culture du chou ?", "Quelles conditions sont requises pour la culture du chou ?", "Conditions pour la culture du chou", "Conditions favorables au chou"],
+        "responses": ["Le chou est une plante de saison fraîche.", "Le chou préfère des conditions de croissance fraîches et humides."]
+    },
+    {"tag": "climatconcombre",
+        "patterns": ["Quelle est la température pour la culture du concombre ?", "À quelle température pousse le concombre ?", "Température pour le concombre"],
+        "responses": ["Une température de 18°C à 22°C.", "Une température de 18°C à 22°C est adaptée à sa culture."]
+    },
+    {"tag": "conditionsconcombre",
+        "patterns": ["Quelles conditions conviennent à la culture du concombre ?", "Quelles conditions sont requises pour la culture du concombre ?", "Conditions favorables au concombre", "Terrain pour la culture du concombre"],
+        "responses": ["Les plants de concombre sont des cultures à enracinement profond, qui poussent mieux dans un sol bien drainé, fertile, pauvre en sels solubles et exempt de maladies liées au sol.", "La plupart des concombres sont cultivés dans des conditions de pluie.", "Dans la plupart des cas, la production de concombres se fait sous conditions de pluie.", "Dans la plupart des cas, la production de concombres se fait sous condition de pluie."]
+    },
+    {"tag": "climatpoivron",
+        "patterns": ["Quelle est la température pour la culture du poivron ?", "À quelle température pousse le poivron ?", "Température pour le poivron"],
+        "responses": ["Une température de 15°C à 25°C.", "Une température de 15°C à 25°C est adaptée à sa culture."]
+    },
+    {"tag": "conditionspoivron",
+        "patterns": ["Quelles conditions conviennent à la culture du poivron ?", "Quelles conditions sont requises pour la culture du poivron ?", "Conditions favorables au poivron", "Terrain pour la culture du poivron"],
+        "responses": ["Le poivron pousse bien dans les climats chauds.", "Le poivron se développe bien dans un climat chaud.", "Le poivron se développe bien dans un climat chaud."]
+    },
+    {"tag": "climatndolé",
+        "patterns": ["Quelle est la température pour la culture du ndolé ?", "À quelle température pousse le ndolé ?", "Température pour le ndolé"],
+        "responses": ["Une température de 20°C à 30°C.", "Une temp"]
+    },
+
+    {"tag": "conditionmaïs",
+    "patterns": ["Quelles sont les conditions favorables à la culture du maïs ?", "Quelles sont les conditions requises pour cultiver du maïs ?", "Conditions favorables pour le maïs", "Terrain pour la culture du maïs"],
+    "responses": ["Une température de 21°C à 27°C et une pluviométrie de 50 à 100 cm sont propices à sa culture.", "Une pluviométrie de 50 à 100 cm est propice à sa culture.", "Des alternances d'averses et de temps ensoleillé sont idéales pour le maïs.", "Il pousse bien dans les sols alluviaux et les sols rouges bien drainés."]
+    },
+    {"tag": "climatcéleri",
+    "patterns": ["Quelle est la température pour la culture du céleri ?", "À quelle température pousse le céleri ?", "Température pour le céleri"],
+    "responses": ["Il semble que la plante se développe mieux lorsque la température moyenne est inférieure à 15°C.", "Il pousse bien avec une température inférieure à 15°C."]
+    },
+    {"tag": "conditioncéleri",
+    "patterns": ["Quelles sont les conditions favorables à la culture du céleri ?", "Quelles sont les conditions requises pour cultiver du céleri ?", "Conditions favorables pour le céleri", "Terrain pour la culture du céleri"],
+    "responses": ["La production de céleri est optimale dans un climat frais, humide et avec une longue saison de croissance et un apport régulier et suffisant en humidité.", "Il pousse bien avec une température inférieure à 15°C. La production de céleri est optimale dans un climat frais, humide et avec une longue saison de croissance.", "La production de céleri est optimale dans un climat frais et humide avec une longue saison de croissance."]
+    },
+
+    {"tag": "climataubergine",
+    "patterns": ["Quelle est la température pour la culture de l'aubergine ?", "À quelle température pousse l'aubergine ?", "Température pour l'aubergine"],
+    "responses": ["Une température inférieure à 18°C est propice à sa culture.", "Une température inférieure à 18°C est propice à sa culture."]
+    },
+
+
+    {"tag": "conditionaubergine",
+    "patterns": ["Quelles sont les conditions favorables à la culture de l'aubergine ?", "Quelles sont les conditions requises pour cultiver de l'aubergine ?", "Conditions favorables pour l'aubergine", "Terrain pour la culture de l'aubergine"],
+    "responses": ["L'aubergine est une plante qui aime les climats chauds.", "Les conditions climatiques propices à la culture de l'aubergine comprennent un climat tropical sub-humide.",  "Elle nécessite des sols bien drainés avec une bonne teneur en matière organique."]
+    },
+
+    {"tag": "climatgombo",
+    "patterns": ["Quelle est la température pour la culture du gombo ?", "À quelle température pousse le gombo ?", "Température pour le gombo"],
+    "responses": ["Une température de 15°C à 20°C est propice à sa culture.", "Une température de 15°C à 20°C est propice à sa culture."]
+    },
+    {"tag": "conditiongombo",
+    "patterns": ["Quelles sont les conditions favorables à la culture du gombo ?", "Quelles sont les conditions requises pour cultiver du gombo ?", "Conditions favorables pour le gombo", "Terrain pour la culture du gombo"],
+    "responses": ["Le gombo nécessite un climat chaud, long et humide pour un meilleur rendement.", "Le gombo a besoin d'un climat chaud, long et humide pour un meilleur rendement.", "Pour un meilleur rendement, le gombo a besoin d'un climat long, chaud et humide."]
+    },
+
+    {"tag": "Meilleures pratiques",
+        "patterns": ["Comment appliquer un engrais NPK ?", "Donnez-moi une idée pour appliquer de l'engrais", "Pouvez-vous me dire comment appliquer un engrais NPK ?", "Quelles sont les méthodes pour appliquer un engrais NPK ?", "J'ai besoin d'un soutien pour appliquer un engrais NPK", "J'ai besoin d'aide pour appliquer un engrais NPK", "S'il vous plaît, aidez-moi à appliquer un engrais NPK"],
+        "responses": ["En doses fractionnées, une moitié au moment de la plantation ou peu de temps après, et le reste 2 à 3 mois après la plantation."]
+    },
+    {"tag": "Meilleures pratiques",
+        "patterns": ["Quel est le meilleur mois pour planter le manioc ?", "Le meilleur mois pour cultiver le manioc", "Je veux savoir le meilleur moment pour planter le manioc"],
+        "responses": ["Au début de la saison des pluies (de mars à avril)."]
+    },
+    {"tag": "Meilleures pratiques",
+        "patterns": ["Quelle bouture de manioc est résistante à la maladie de la mosaïque ?", "Donnez-moi des boutures résistantes à la mosaïque", "Je veux savoir quelle bouture de manioc est résistante à la maladie de la mosaïque", "Quelle bouture de manioc a une résistance à l'infection par la mosaïque ?"],
+        "responses": ["Farmer Pride et TME 419 sont résistantes à la mosaïque."]
+    },
+    {"tag": "Meilleures pratiques",
+        "patterns": ["Quel type de sol est le meilleur pour cultiver le manioc ?", "Le meilleur sol pour le manioc ?", "Quel sol est bon pour la culture du manioc ?", "Dites-moi quel type de sol est bon pour le manioc ?"],
+        "responses": ["Un sol sableux léger ou un sol limoneux."]
+    },
+    {"tag": "Application d'engrais",
+        "patterns": ["Application d'engrais", "Comment appliquer de l'engrais", "Je veux appliquer de l'engrais", "Comment appliquer un engrais NPK"],
+        "responses": ["L'engrais NKP peut être appliqué en doses fractionnées, une moitié au moment de la plantation ou peu de temps après, et le reste 2 à 3 mois après la plantation.", "Peu de temps après la plantation et le reste 2 à 3 mois après la plantation.", "En cercle, à 6 cm de large et à 10 cm de la plante, 8 semaines après la plantation."]
+    }
+]}
