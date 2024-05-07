@@ -8,7 +8,7 @@ import nltk
 import colorama 
 colorama.init()
 from colorama import Fore, Style, Back
-from langdetect import detect
+from ftlangdetect import detect
 from googletrans import Translator
 from translate import Translator
 nltk.download("punkt")
@@ -26,8 +26,8 @@ with open("datasets/intentsfr.json") as file:
     datafr = json.load(file)    
     
     
-model = keras.models.load_model('my_models/chat_model')
-modelfr = keras.models.load_model('my_models/chat_modelfr')
+model = keras.models.load_model('my_models/chat_model1')
+modelfr = keras.models.load_model('my_models/chat_modelfr1')
 
 
 
@@ -171,23 +171,23 @@ def get_responsefr(intents_list, intents_json):
 
 
 def chat():
-   
     
-    while True:
-        print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL, end="")
-        inp = input()
-        if inp.lower() == "quit":
-            break
+  while True:
+      print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL, end="")
+      inp = input()
+      if inp.lower() == "quit":
+          break
 
-        intents = pred_class(inp, words, classes)
-        result = get_response(intents, data)
-        print(Fore.GREEN + "Bao:" + Style.RESET_ALL , result)
+      intents = pred_class(inp, words, classes)
+      result = get_response(intents, data)
+      print(Fore.GREEN + "Bao:" + Style.RESET_ALL , result)
 
-        # print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL,random.choice(responses))
+      # print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL,random.choice(responses))
 
 
 def detect_language(text):
-    return detect(text)
+  result = detect(text)
+  return result['lang']
 
 def translate_text(text, target_language):
   translator = Translator(to_lang=target_language)
@@ -222,3 +222,5 @@ def chatbot(message):
       print("Translated Result:", result)  # Vérifier la réponse traduite
       
     return result
+  
+chat()

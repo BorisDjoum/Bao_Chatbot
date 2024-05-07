@@ -32,8 +32,8 @@
     "responses": ["Please provide us your complaint in order to assist you.", "Please mention your complaint, we will reach you and sorry for any inconvenience caused."]
     },
     {"tag": "hours",
-         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+    "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+    "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
     },
     {"tag": "buy",
     "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
@@ -76,60 +76,67 @@
     "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
     },
     {"tag": "cottonweather",
-    "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temperature for cotton ", "temperature require for cotton crop?"],
-    "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+    "patterns": ["What are the ideal weather conditions for cotton?","which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temperature for cotton ", "temperature require for cotton crop?", "Which climate is suitable for cotton cultivation?", "What temperature range does cotton prefer?", "What kind of weather does cotton need?"],
+    "responses": ["Cotton is a warm-season crop and requires high temperatures for its growth. The optimal temperature range for cotton cultivation is between 24°C and 30°C. Warm temperatures promote healthy cotton plant growth and fiber production.", "Cotton thrives in a temperature range of 24°C to 30°C. This warm temperature range provides favorable conditions for the growth and yield of cotton plants." ,"Cotton thrives in warm weather with temperatures ranging from 70 to 100°F (21-37°C).", "Cotton prefers a warm climate with temperatures between 70 and 100°F.", "The temperature range of 70-100°F is optimal for cotton growth."]
     },
-
-
-
     
     {"tag": "cottoncondition",
-    "patterns": ["which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production"],
-    "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+    "patterns": ["What are the suitable conditions for growing cotton?", "Which conditions are required for cotton crop?", "Which type of soil is suitable for cotton cultivation?" ,"What weather conditions are suitable for cotton cultivation?", "What is the optimal temperature for growing cotton?", "In which temperature range does cotton grow?" ,"which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production", "What conditions are suitable for cotton crop?", "What does cotton need to grow well?", "Which factors affect cotton production?", "What are the requirements for successful cotton cultivation?"],
+    "responses": ["Cotton requires well-drained, loamy soils with good moisture retention capacity for its growth. Sandy loam and silt loam soils are considered suitable for cotton cultivation.", "The suitable conditions for cotton crop include well-drained, loamy soils with good moisture retention capacity. Sandy loam and silt loam soils are considered ideal for cotton cultivation." ,"Cotton requires a lot of heat and plenty of sunshine to grow well.", "It thrives in warm and humid conditions.", "Cotton needs a long frost-free period to reach its full potential."]
     },
     {"tag": "wheatweather",
-    "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
-    "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+    "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?", "What weather is suitable for wheat cultivation?", "What temperature is ideal for wheat crop?", "What temperature range does wheat require?", "What kind of climate does wheat prefer?"],
+    "responses": ["The optimum growing temperature for wheat is around 25°C.", "Wheat has minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+    },
+    {"tag": "potatoweather",
+    "patterns": ["What weather conditions are suitable for potato cultivation?", "What is the optimal temperature for growing potatoes?", "In which temperature range do potatoes grow?"],
+    "responses": ["Potatoes grow best in cool weather conditions. The optimal temperature range for potato cultivation is between 15°C and 20°C. Cooler temperatures promote healthy potato plant growth and tuber development.", "Potatoes thrive in a temperature range of 15°C to 20°C. This temperature range provides favorable conditions for the growth and yield of potato crops."]
+    },
+    {"tag": "potatocondition",
+    "patterns": ["What are the suitable conditions for growing potatoes?", "Which conditions are required for potato crop?", "Which type of soil is suitable for potato cultivation?"],
+    "responses": ["Potatoes require well-drained, loose, and fertile soil for their growth. Sandy loam or loamy soil with good organic matter content is considered ideal for potato cultivation. Additionally, potatoes prefer a cool climate and ample sunlight for optimal growth and tuber formation.", "The ideal conditions for potato crop include well-drained, loose, and fertile soil. Sandy loam or loamy soil with good organic matter content is preferred. Potatoes also thrive in a cool climate with ample sunlight."]
     },
 
-
-
+    {"tag": "wheatweather",
+    "patterns": ["What weather conditions are suitable for wheat cultivation?", "What is the optimal temperature for growing wheat?", "In which temperature range does wheat grow?"],
+    "responses": ["Wheat is a cool-season crop and grows best in a temperature range of 15°C to 24°C. It requires cool but not freezing temperatures during the growing season for optimal growth and grain development.", "The optimal temperature range for wheat cultivation is between 15°C to 24°C. Wheat plants thrive in these cool but not freezing temperatures, which are conducive to their growth and grain production."]
+    },
 
     {"tag": "wheatcondition",
-    "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
-    "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+    "patterns": ["What are the suitable conditions for growing wheat?", "Which conditions are required for wheat crop?", "Which type of soil is suitable for wheat cultivation?" ,"which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop", "What conditions are suitable for wheat crop?", "What factors contribute to successful wheat cultivation?", "Which soil and water conditions does wheat prefer?"],
+    "responses": ["Wheat prefers well-drained loamy soil with good organic matter content. It can be grown in a wide range of soil types but performs best in fertile soils. Additionally, wheat requires a cool and relatively dry climate for successful cultivation.", "The suitable conditions for wheat crop include well-drained loamy soil with good organic matter. While wheat can be grown in various soil types, it thrives in fertile soils. It also prefers a cool and relatively dry climate for optimal growth and grain yield." ,"Wheat requires about 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "It needs a lot of sunshine, especially during grain filling.", "Wheat grows best when the soil pH is between 6.0 and 7.0."]
     },
-    {"tag": "bajraweather",
-    "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
-    "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+    {"tag": "milweather",
+    "patterns": ["which weather is suitable for mil?", "what is temperature for mil crop?", "mil grows in which temperature?", "temperature for mil", "temperature require for mil crop?", "What weather is suitable for millet?", "What temperature range does millet prefer?", "What is the ideal temperature for millet cultivation?"],
+    "responses": ["Ideal temperature for mil cultivation is between 20 oC to 30 oC.", "The ideal temperature for millet cultivation is between 20°C to 30°C.", "Millet thrives in temperatures ranging from 20°C to 30°C."]
     },
-    {"tag": "bajracondition",
-    "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for bajra crop"],
-    "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
+    {"tag": "milcondition",
+    "patterns": ["What conditions are suitable for millet crop?", "What factors contribute to successful millet cultivation?", "Which climatic and soil conditions favor millet growth?" ,"which condition is suitable for mil crop?", "which condition required for mil crop?", "condition for mil crop", "which land is suitable for mil crop"],
+    "responses": ["Millet grows well in dry and warm climate conditions.", "It is a drought-tolerant crop that requires low annual rainfall ranging between 40 cm to 60 cm.", "mil grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
     },
     {"tag": "sugercaneweather",
-    "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
-    "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+    "patterns": ["What weather is suitable for sugarcane?", "What temperature range does sugarcane prefer?", "What kind of climate does sugarcane require?" ,"which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
+    "responses": ["Sugarcane thrives in temperatures ranging from 21°C to 27°C.", "It grows well in hot and humid climates with a temperature of 21°C to 27°C.", "Sugercane grows well in hot and humid climate with a temperature of 21°C to 27°C "]
     },
     {"tag": "sugercanecondition",
-    "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
-    "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+    "patterns": ["What conditions are suitable for sugarcane crop?", "What factors contribute to successful sugarcane cultivation?", "Which soil and climatic conditions favor sugarcane growth?" ,"which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+    "responses": [ "Sugarcane requires an annual rainfall between 75 cm.", "It is a tropical as well as a subtropical crop.", "Sugarcane grows well in hot and humid climates with a temperature of 21°C to 27°C."]
     },
     {"tag": "riceweather",
-    "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
-    "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+    "patterns": ["What is the optimal temperature for growing rice?", "In which temperature range does rice grow?" ,"What weather is suitable for rice cultivation?", "What temperature range does rice prefer?", "What kind of climate does rice require?" ,"which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+    "responses": ["Rice is a warm-season crop and requires high temperatures for its growth. The optimal temperature range for rice cultivation is between 20°C and 37°C. Warm temperatures promote healthy rice plant growth and grain production.", "Rice thrives in a temperature range of 20°C to 37°C. This warm temperature range provides favorable conditions for the growth and yield of rice crops." ,"The average temperature required throughout the life period of rice ranges from 21°C to 37°C.", "Rice grows best in temperatures between 21°C and 37°C." ,"The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
     },
     {"tag": "ricecondition",
-    "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
-    "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+    "patterns": ["What are the suitable conditions for growing rice?", "Which conditions are required for rice crop?", "Which type of soil is suitable for rice cultivation?", "What conditions are suitable for rice crop?", "What factors contribute to successful rice cultivation?", "Which soil and climatic conditions favor rice growth?" ,"which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+    "responses": ["Rice requires a flooded or highly saturated environment for its cultivation. It is typically grown in clayey or loamy soils that can retain water. Additionally, rice prefers a warm and humid climate with temperatures ranging from 20°C to 37°C for optimal growth and grain production.", "The suitable conditions for rice crop include flooded or highly saturated soil. Rice is commonly grown in clayey or loamy soils that retain water well. It also thrives in a warm and humid climate with temperatures ranging from 20°C to 37°C."]
     },
     {"tag": "groundnutweather",
-    "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
-    "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+    "patterns": ["What weather is suitable for groundnut?", "What temperature range does groundnut prefer?", "What kind of climate does groundnut require?" ,"which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+    "responses": ["Groundnut grows best when the mean temperature is between 21°C and 26.5°C.", "groundnut thrives with a temperature of 21°C to 26.5°C.", "groundnut grows well with a temperature of 21°C to 26.5°C "]
     },
     {"tag": "groundnutcondition",
-    "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
-    "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+    "patterns": ["What conditions are suitable for groundnut crop?", "What factors contribute to successful groundnut cultivation?", "Which soil and climatic conditions favor groundnut growth?" ,"which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+    "responses": ["Groundnut requires well-distributed rainfall of at least 50 cm during the growing season.", "It grows in abundance of sunshine and relatively warm temperatures." ,"it requires well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
     },
 
 
@@ -138,128 +145,434 @@
     "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
     },
     {"tag": "maizeweather",
-    "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
-    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
-    },
-    {"tag": "maizecondition",
-    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
-    },
-    {"tag": "tomatoweather",
-    "patterns": ["which weather is suitable for tomato?", "what is temperature for tomato crop?", "tomato crop grows in which temperature?", "temperature for tomato ", "temperature require for tomato crop?"],
-    "responses": ["During active growth, the ideal air temperature is 70 to 80.6°F (21-27°C).", "ideal air temperature is 70 to 80.6°F.", "21-27°C temperature is required."]
-    },
-    {"tag": "tomatocondition",
-    "patterns": ["which condition is suitable for tomato crop?", "which condition required for tomato crop?", "condition for tomato crop", "condition suitable for tomato", "condition for more tomato crop production"],
-    "responses": ["It require a lot of heat and plenty of sunshine.", "Tomatoes are warm- and sun-loving plants. Full sun for at least 8 hours a day is essential for growing healthy crops.","Tomatoes grow in relatively warm temperatures."]
-    },
-    {"tag": "onionweather",
-    "patterns": ["which weather is suitable for onion?", "what is temperature for onion crop?", "onion grows in which temperature?","temperature for onion", "temperature require for onion crop?"],
-    "responses": ["The optimum growing temperature is about 16°C to 21.", "the ideal air temperature is 60.8 to 70°F (16-21°C)"]
-    },
-    {"tag": "onioncondition",
-    "patterns": ["which condition is suitable for onion crop?", "which condition required for onion crop?", "condition for onion crop", "condition suitable for onion", "condition for more onion crop production", "which land is suitable for onion crop"],
-    "responses": ["The best performance can be obtained in a mild weather without the extremes of cold and heat and excessive rainfall.", "Onion is a temperate crop but can be grown under a wide range of climatic conditions such as temperate, tropical and subtropical climate.", "Choosing a sunny area where your onion plants are won’t be shaded is beneficial for your plants."]
-    },
-    {"tag": "carrotweather",
-    "patterns": ["which weather is suitable for carrot?", "what is temperature for carrot crop?", "carrot grows in which temperature?", "temperature for carrot", "temperature require for carrot crop?"],
-    "responses": ["Ideal temperature for carrot cultivation is between 16°C to 21°C.", "temperature is between 16°C to 21°C."]
-    },
-    {"tag": "carrotcondition",
-    "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for condition crop"],
-    "responses": ["Carrots need well-drained, well-cultivated soil. ", "Carrots prefer fertile, well-drained, deep, sandy soils rich in organic matter for best growth.", "Carrots grow best in full sun and cool temperatures."]
-    },
-    {"tag": "leekweather",
-    "patterns": ["which weather is suitable for leek?", "what is temperature for leek crop?", "leek grows in which temperature?","temperature for leek"],
-    "responses": ["temperature is between 16°C to 21°C", "It grows well in hot and humid climate with a temperature of 16°C to 21°C "]
-    },
-    {"tag": "leekcondition",
-    "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
-    "responses": ["A well-drained, light-textured soil makes planting and harvesting easy and contributes to production of clean and presentable produce.", "Leeks prefer a deep, fertile, friable soil with plenty of organic matter.", "Leeks are a cool-season crop, so are well suited for cultivation in Wisconsin."]
-    },
+    "patterns": ["What is the ideal temperature for maize crop?", "In which temperature range does maize grow?", "What temperature is suitable for maize cultivation?"],
+    "responses": ["The ideal temperature for maize crop is between 21°C and 27°C. Maize thrives in this temperature range and it promotes optimal growth and development of the plant.", "Maize grows best in a temperature range of 21°C to 27°C. This temperature range provides favorable conditions for the growth and yield of maize crops."]
+},
+
+{"tag": "maizecondition",
+    "patterns": ["What are the required conditions for growing maize?", "What conditions are suitable for maize crop?", "Which type of land is suitable for maize cultivation?"],
+    "responses": ["Maize requires a temperature of 21°C to 27°C and rainfall ranging from 50cm to 100cm for its cultivation. Additionally, it grows well in alluvial and red soils with good drainage.", "The ideal conditions for maize crop include a temperature of 21°C to 27°C and a rainfall range of 50cm to 100cm. It also prefers well-drained soils such as alluvial and red soils."]
+},
+
+{"tag": "tomatoweather",
+    "patterns": ["What weather conditions are suitable for tomato cultivation?", "What is the optimal temperature for growing tomatoes?", "In which temperature range do tomatoes grow?"],
+    "responses": ["Tomatoes thrive in a temperature range of 70 to 80.6°F (21-27°C) during active growth. This temperature range provides the best conditions for tomato plants to develop and produce a good yield.", "The optimal air temperature for tomato cultivation is between 70 to 80.6°F (21-27°C). This temperature range promotes healthy growth and fruit development in tomato plants."]
+},
+
+{"tag": "tomatocondition",
+    "patterns": ["What are the ideal conditions for growing tomatoes?", "Which conditions are required for tomato crop?", "Which conditions promote higher tomato crop production?"],
+    "responses": ["Tomatoes require a lot of heat and plenty of sunshine. They are warm- and sun-loving plants, so it's essential to provide them with at least 8 hours of full sun each day. Additionally, tomatoes grow well in relatively warm temperatures.", "The ideal conditions for tomato crop include a warm climate with abundant sunlight. Tomatoes thrive in temperatures that are relatively warm, and they require at least 8 hours of direct sunlight for optimal growth and fruit production."]
+},
+
+{"tag": "onionweather",
+    "patterns": ["What weather conditions are suitable for onion cultivation?", "What is the optimal temperature for growing onions?", "In which temperature range do onions grow?"],
+    "responses": ["The optimum growing temperature for onions is about 16°C to 21°C. Onions prefer mild weather without extreme cold or heat and excessive rainfall for the best performance.", "Onions grow best in a temperature range of about 16°C to 21°C. This temperature range provides favorable conditions for onion plants to grow and produce healthy bulbs."]
+},
+
+{"tag": "onioncondition",
+    "patterns": ["What are the suitable conditions for growing onions?", "Which conditions are required for onion crop?", "Which type of land is suitable for onion cultivation?"],
+    "responses": ["Onions are a temperate crop that can be grown under a wide range of climatic conditions, including temperate, tropical, and subtropical climates. The best performance can be obtained in mild weather without extreme cold or heat and excessive rainfall. Choosing a sunny area for onion cultivation, where the plants won't be shaded, is also beneficial for their growth.", "Onions prefer a temperate climate but can be grown in various climatic conditions. They thrive in mild weather without extreme cold or heat and excessive rainfall. Additionally, onions grow well in well-drained, sunny areas that provide ample sunlight for their growth."]
+},
+
+{"tag": "carrotweather",
+    "patterns": ["What weather conditions are suitable for carrot cultivation?", "What is the optimal temperature for growing carrots?", "In which temperature range do carrots grow?"],
+    "responses": ["The ideal temperature for carrot cultivation is between 16°C to 21°C. Carrots grow best in this temperature range, which provides favorable conditions for their growth and development.", "Carrots thrive in a temperature range of 16°C to 21°C. This temperature range promotes optimal growth and root development in carrot plants."]
+},
+
+{"tag": "carrotcondition",
+    "patterns": ["What are the suitable conditions for growing carrots?", "Which conditions are required for carrot crop?", "Which type of land is suitable for carrot cultivation?"],
+    "responses": ["Carrots need well-drained and well-cultivated soil for their growth. They prefer fertile, deep, sandy soils that are rich in organic matter. Additionally, carrots grow best in full sun and cool temperatures.", "The ideal conditionsfor carrot cultivation include well-drained and well-cultivated soil. Carrots prefer fertile, deep, sandy soils that are rich in organic matter. They also require full sun exposure and cooler temperatures for optimal growth."]
+},
 
 
+{"tag": "leekweather",
+"patterns": ["Which weather is suitable for leek?", "What is the temperature for leek crop?", "In which temperature does leek grow?", "What temperature is ideal for leek cultivation?"],
+"responses": ["Leek thrives in a temperature range of 16°C to 21°C.", "The optimal temperature for leek growth is between 16°C to 21°C.", "Leek crops require a temperature range of 16°C to 21°C for optimal development and yield."]
+},
 
+{"tag": "leekcondition",
+"patterns": ["Can you provide information about leek crop?", "What are the suitable conditions for growing leek?", "What conditions are required for leek cultivation?"],
+"responses": ["Leeks prefer well-drained, fertile soil with plenty of organic matter.", "A deep, fertile, and friable soil with good organic content is ideal for leek cultivation.", "Leeks thrive in cool-season conditions and are well suited for cultivation in regions with cool climates."]
+},
 
+{"tag": "lettuceweather",
+"patterns": ["Which weather is suitable for lettuce?", "What is the temperature for lettuce crop?", "In which temperature does lettuce grow?", "What temperature is ideal for lettuce cultivation?"],
+"responses": ["Lettuce requires an average temperature ranging from 16°C to 21°C throughout its life cycle.", "The optimal temperature for lettuce growth is between 16°C to 21°C.", "Lettuce thrives in temperatures around 16°C to 21°C."]
+},
 
+{"tag": "lettucecondition",
+"patterns": ["Can you provide information about lettuce crop?", "What are the suitable conditions for growing lettuce?", "What conditions are required for lettuce cultivation?"],
+"responses": ["Lettuce grows well in warm climates.", "Butterhead lettuce varieties are especially well-suited to warm climates.", "Lettuce flourishes in a warm climate with the right combination of sunlight and moisture."]
+},
 
+{"tag": "cabbageweather",
+"patterns": ["Which weather is suitable for cabbage?", "What is the temperature for cabbage crop?", "In which temperature does cabbage grow?", "What temperature is ideal for cabbage cultivation?"],
+"responses": ["Cabbage grows best when the mean temperature ranges from 12°C to 23°C.", "The optimal temperature for cabbage growth is between 12°C to 23°C.", "Cabbage thrives in temperatures around 12°C to 23°C."]
+},
 
+{"tag": "cabbagecondition",
+"patterns": ["Can you provide information about cabbage crop?", "What are the suitable conditions for growing cabbage?", "What conditions are required for cabbage cultivation?"],
+"responses": ["Cabbage is a cool-season crop that prefers cold and humid growing conditions.", "Cabbage grows best in cool and moist environments.", "Cabbage thrives in regions with cool temperatures and high humidity."]
+},
 
+{"tag": "cucumberweather",
+"patterns": ["What is the temperature for cucumber crop?", "In which temperature does cucumber grow?", "What temperature is ideal for cucumber cultivation?"],
+"responses": ["Cucumbers require a temperature range of 18°C to 22°C for optimal growth.", "The ideal temperature for cucumber cultivation is between 18°C to 22°C.", "Cucumber plants thrive in temperatures around 18°C to 22°C."]
+},
 
-    {"tag": "lettuceweather",
-    "patterns": ["which weather is suitable for lettuce?", "what is temperature for lettuce crop?", "lettuce grows in which temperature?","temperature for lettuce"],
-    "responses": ["The average temperature required throughout the life period of the crop ranges from 16°C to 21°C.", "the average temperature is between 16°C to 21°C"]
+{"tag": "cucumbercondition",
+"patterns": ["Can you provide information about cucumber crop?", "What are the suitable conditions for growing cucumber?", "What conditions are required for cucumber cultivation?"],
+"responses": ["Cucumber plants thrive in well-drained and fertile soil with low soluble salts and no soil-borne diseases.", "Most cucumber varieties are grown under rainfed conditions.", "Cucumber production is typically rain-fed, relying on natural precipitation for water supply."]
+},
+
+{"tag": "bellpepperweather",
+"patterns": ["What is the temperature for bell pepper crop?", "In which temperature does bell pepper grow?", "What temperature is ideal for bell pepper cultivation?"],
+"responses": ["Bell peppers require a temperature range of 15°C to 25°C for optimal growth.", "The ideal temperature for bell pepper cultivation is between 15°C to 25°C.", "Bell peppers thrive in temperatures around 15°C to 25°C."]
+},
+
+{"tag": "bellpeppercondition",
+"patterns": ["Can you provide information about bell pepper crop?", "What are the suitable conditions for growing bell pepper?", "What conditions are required for bell pepper cultivation?"],
+"responses": ["Bell peppers grow well in warm climates.", "Bell peppers are suited to a warm climate.", "Warm climates are ideal for bell pepper cultivation."]
+},
+
+{"tag": "ndoleweather",
+"patterns": ["What is the temperature for maize crop?", "In which temperature does maize grow?", "What temperature is ideal for maize cultivation?"],
+"responses": ["Maize thrives in a temperature range of 30°C.", "The optimal temperature for maize growth is around 30°C.", "Maize requires a temperature of approximately 30°C for optimal cultivation."]
+},
+
+{"tag": "ndolecondition",
+"patterns": ["Can you provide information about maize crop?", "What are the suitable conditions for growing maize?", "What conditions are required for maize cultivation?"],
+"responses": ["Maize requires a temperature range of 21°C to 27°C and rainfall between 50-100cm for optimal growth.", "Rainfall between 50-100cm and temperatures of 21°C to 27°C are suitable for maize cultivation.", "Maize thrives in alluvial and red soils with good drainage and a combination of rainy and sunny weather."]
+},
+
+{"tag": "celeryweather",
+"patterns": ["What is the temperature for celery crop?", "In which temperature does celery grow?", "What temperature is ideal for celery cultivation?"],
+"responses": ["Celery grows best in a temperature lower than 15°C.", "The optimal temperature for celery growth is below 15°C.", "Celery thrives in temperatures lower than 15°C."]
+},
+
+{"tag": "celerycondition",
+"patterns": ["Can you provide information about celery crop?", "What are the suitable conditions for growing celery?", "What conditions are required for celery cultivation?"],
+"responses": ["Celery production is most successful in cool, humid climates with a long growing season and consistent moisture supply.", "Celery grows best in a cool, humid climate with a long growing season.", "The ideal conditions for celery cultivation include a cool and humid environment with ample moisture."]
+},
+
+{"tag": "leekweather",
+"patterns": ["Which weather is suitable for leek?", "What is the temperature for leek crop?", "In which temperature does leek grow?", "What temperature is ideal for leek cultivation?"],
+"responses": ["Leek thrives in a temperature range of 16°C to 21°C.", "The optimal temperature for leek growth is between 16°C to 21°C.", "Leek crops require a temperature range of 16°C to 21°C for optimal development and yield."]
+},
+
+{"tag": "leekcondition",
+"patterns": ["Can you provide information about leek crop?", "What are the suitable conditions for growing leek?", "What conditions are required for leek cultivation?"],
+"responses": ["Leeks prefer well-drained, fertile soil with plenty of organic matter.", "A deep, fertile, and friable soil with good organic content is ideal for leek cultivation.", "Leeks thrive in cool-season conditions and are well suited for cultivation in regions with cool climates."]
+},
+
+{"tag": "lettuceweather",
+"patterns": ["Which weather is suitable for lettuce?", "What is the temperature for lettuce crop?", "In which temperature does lettuce grow?", "What temperature is ideal for lettuce cultivation?"],
+"responses": ["Lettuce requires an average temperature ranging from 16°C to 21°C throughout its life cycle.", "The optimal temperature for lettuce growth is between 16°C to 21°C.", "Lettuce thrives in temperatures around 16°C to 21°C."]
+},
+
+{"tag": "lettucecondition",
+"patterns": ["Can you provide information about lettuce crop?", "What are the suitable conditions for growing lettuce?", "What conditions are required for lettuce cultivation?"],
+"responses": ["Lettuce grows well in warm climates.", "Butterhead lettuce varieties are especially well-suited to warm climates.", "Lettuce flourishes in a warm climate with the right combination of sunlight and moisture."]
+},
+
+{"tag": "cabbageweather",
+"patterns": ["Which weather is suitable for cabbage?", "What is the temperature for cabbage crop?", "In which temperature does cabbage grow?", "What temperature is ideal for cabbage cultivation?"],
+"responses": ["Cabbage grows best when the mean temperature ranges from 12°C to 23°C.", "The optimal temperature for cabbage growth is between 12°C to 23°C.", "Cabbage thrives in temperatures around 12°C to 23°C."]
+},
+
+{"tag": "cabbagecondition",
+"patterns": ["Can you provide information about cabbage crop?", "What are the suitable conditions for growing cabbage?", "What conditions are required for cabbage cultivation?"],
+"responses": ["Cabbage is a cool-season crop that prefers cold and humid growing conditions.", "Cabbage grows best in cool and moist environments.", "Cabbage thrives in regions with cool temperatures and high humidity."]
+},
+
+{"tag": "cucumberweather",
+"patterns": ["What is the temperature for cucumber crop?", "In which temperature does cucumber grow?", "What temperature is ideal for cucumber cultivation?"],
+"responses": ["Cucumbers require a temperature range of 18°C to 22°C for optimal growth.", "The ideal temperature for cucumber cultivation is between 18°C to 22°C.", "Cucumber plants thrive in temperatures around 18°C to 22°C."]
+},
+
+{"tag": "cucumbercondition",
+"patterns": ["Can you provide information about cucumber crop?", "What are the suitable conditions for growing cucumber?", "What conditions are required for cucumber cultivation?"],
+"responses": ["Cucumber plants thrive in well-drained and fertile soil with low soluble salts and no soil-borne diseases.", "Most cucumber varieties are grown under rainfed conditions.", "Cucumber production is typically rain-fed, relying on natural precipitation for water supply."]
+},
+
+{"tag": "bellpepperweather",
+"patterns": ["What is the temperature for bell pepper crop?", "In which temperature does bell pepper grow?", "What temperature is ideal for bell pepper cultivation?"],
+"responses": ["Bell peppers require a temperature range of 15°C to 25°C for optimal growth.", "The ideal temperature for bell pepper cultivation is between 15°C to 25°C.", "Bell peppers thrive in temperatures around 15°C to 25°C."]
+},
+
+{"tag": "bellpeppercondition",
+"patterns": ["Can you provide information about bell pepper crop?", "What are the suitable conditions for growing bell pepper?", "What conditions are required for bell pepper cultivation?"],
+"responses": ["Bell peppers grow well in warm climates.", "Bell peppers are suited to a warm climate.", "Warm climates are ideal for bell pepper cultivation."]
+},
+
+{"tag": "ndoleweather",
+"patterns": ["What is the temperature for maize crop?", "In which temperature does maize grow?", "What temperature is ideal for maize cultivation?"],
+"responses": ["Maize thrives in a temperature range of 30°C.", "The optimal temperature for maize growth is around 30°C.", "Maize requires a temperature of approximately 30°C for optimal cultivation."]
+},
+
+{"tag": "ndolecondition",
+"patterns": ["Can you provide information about maize crop?", "What are the suitable conditions for growing maize?", "What conditions are required for maize cultivation?"],
+"responses": ["Maize requires a temperature range of 21°C to 27°C and rainfall between 50-100cm for optimal growth.", "Rainfall between 50-100cm and temperatures of 21°C to 27°C are suitable for maize cultivation.", "Maize thrives in alluvial and red soils with good drainage and a combination of rainy and sunny weather."]
+},
+
+{"tag": "celeryweather",
+"patterns": ["What is the temperature for celery crop?", "In which temperature does celery grow?", "What temperature is ideal for celery cultivation?"],
+"responses": ["Celery grows best in a temperature lower than 15°C.", "The optimal temperature for celery growth is below 15°C.", "Celery thrives in temperatures lower than 15°C."]
+},
+
+{"tag": "celerycondition",
+"patterns": ["Can you provide information about celery crop?", "What are the suitable conditions for growing celery?", "What conditions are required for celery cultivation?"],
+"responses": ["Celery production is most successful in cool, humid climates with a long growing season and consistent moisture supply.", "Celery grows best in a cool, humid climate with a long growing season.", "The ideal conditions for celery cultivation include a cool and humid environment with ample moisture."]
+},
+    {
+    "tag": "weatherstrawberry",
+    "patterns": ["What is the ideal climate for growing strawberries?", "What temperature promotes strawberry growth?", "In what temperature range do strawberries grow best?"],
+    "responses": ["Strawberries prefer a cool to moderate climate. The ideal temperature for strawberry growth is usually between 16°C and 24°C. Temperatures above 30°C can hinder pollination and fruit development. Strawberries also require a period of winter chill to stimulate their growth and production."]
     },
-    {"tag": "lettucecondition",
-    "patterns": ["which condition is suitable for lettuce crop?", "which condition required for lettuce crop?", "condition for lettuce crop","condition suitable for lettuce"],
-    "responses": ["Warm climate lettuce grows well","Lettuce grows well in warm climates.", "Butterhead lettuce does well in warm climates.", "Lettuce does well in a warm climate."]
-    },
-    {"tag": "cabbageweather",
-    "patterns": ["which weather is suitable for cabbage?", "what is temperature for cabbage crop?", "cabbage grows in which temperature?","temperature for cabbage"],
-    "responses": ["It seems that plant will grow best when the mean temperature is from 12-23°C.", "It grows well with a temperature of 12°C to 23°C "]
-    },
-    {"tag": "cabbagecondition",
-    "patterns": ["which condition is suitable for cabbage crop?", "which condition required for cabbage crop?", "condition for cabbage crop","condition suitable for cabbage"],
-    "responses": ["Cabbage is a cool season crop.", "Cabbage prefers cold and humid growing conditions."]
-    },
 
-    {"tag": "cucumberweather",
-    "patterns": ["what is temperature for cucumber crop?", "cucumber grows in which temperature?", "temperature for cucumber"],
-    "responses": ["A temperature of 18°C- 22°C.", "A temperature of 18°C- 22°C is suitable for its cultivation."]
+    
+    {
+    "tag": "conditionstrawberry",
+    "patterns": ["What are the necessary conditions for growing strawberries?", "What are the soil and climate requirements for strawberry cultivation?", "What conditions promote a good strawberry harvest?"],
+    "responses": ["To successfully grow strawberries, it is important to provide a cool to moderate climate with temperatures around 16°C to 24°C during the active growing season. Strawberries prefer well-drained soils that are rich in organic matter and slightly acidic. Exposure to sunlight for at least 6 hours a day is essential for good strawberry production. Regular watering, mulching to control weeds, and protection against pests are also important for a bountiful strawberry harvest."]
     },
-    {"tag": "cucumbercondition",
-    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-    "responses": ["Cucumber plants are deep-rooted crops, which grow best in well- drained, fertile, soil that is low in soluble salts and free of soil-borne diseases.", "Most cucumbers are grown under rainfed conditions.", "In most cases, cucumber production is rain-fed.", "In most cases, production of cucumber is under rainfed condition"]
-    },
+    
+        {
+          "tag": "pepperweather",
+          "patterns": [
+            "What weather conditions are suitable for pepper cultivation?",
+            "What is the optimal temperature for pepper cultivation?",
+            "In what temperature range do peppers grow?",
+            "What are the light requirements for pepper cultivation?",
+            "How much rainfall do peppers require?"
+          ],
+          "responses": [
+            "Peppers thrive in warm weather conditions. The optimal temperature range for pepper cultivation is between 25°C and 30°C. They require at least 6 hours of direct sunlight per day. Peppers require about 500 to 700 millimeters of rainfall annually."
+          ]
+        },
+        {
+          "tag": "cocoaweather",
+          "patterns": [
+            "What weather conditions are suitable for cocoa cultivation?",
+            "What is the optimal temperature for cocoa cultivation?",
+            "In what temperature range does cocoa grow?",
+            "What are the light requirements for cocoa cultivation?",
+            "How much rainfall does cocoa require?"
+          ],
+          "responses": [
+            "Cocoa thrives in warm and humid weather conditions. The optimal temperature range for cocoa cultivation is generally between 21°C and 25°C. It requires partial shade exposure. Cocoa requires about 1,500 to 2,000 millimeters of rainfall annually."
+          ]
+        },
+      
 
-    {"tag": "bellpepperweather",
-    "patterns": ["what is temperature for bell pepper crop?", "bell pepper grows in which temperature?", "temperature for bell pepper"],
-    "responses": ["A temperature of 15°C- 25°C.", "A temperature of 15°C- 25°C is suitable for its cultivation."]
-    },
+        {
+            "tag": "peppercondition",
+            "patterns": [
+            "What is the ideal soil pH for pepper cultivation?",
+            "What are the water requirements for pepper cultivation?",
+            "What are the recommended soil types for pepper cultivation?",
+            "What are the soil fertility requirements for peppers?"
+            ],
+            "responses": [
+            "The ideal soil pH for peppers is between 6 and 7. Peppers require regular watering, but it is important not to overwater them to avoid root rot. They grow well in well-drained soils rich in organic matter. Peppers prefer moderately fertile soils."
+            ]
+        },
+        {
+            "tag": "cacaocondition",
+            "patterns": [
+            "What is the ideal soil pH for cocoa cultivation?",
+            "What are the water requirements for cocoa cultivation?",
+            "What are the recommended soil types for cocoa cultivation?",
+            "What are the soil fertility requirements for cocoa?"
+            ],
+            "responses": [
+            "The ideal soil pH for cocoa is between 6 and 7. Cocoa requires regular watering to maintain constant soil moisture, but it is important not to overwater to avoid waterlogging. It grows well in well-drained soils rich in organic matter. Cocoa requires fertile soil with good nutrient content."
+            ]
+        },
 
 
-    {"tag": "bellpeppercondition",
-    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-    "responses": ["bell pepper grows well in warm climates.", "bell pepper does well in a warm climate.", "Warm climate lettuce grows well."]
-    },
+        {
+            "tag": "condiment",
+            "patterns": [
+            "What is a condiment?",
+            "Definition of a condiment",
+            "What does the term condiment mean?"
+            ],
+            "responses": [
+            "A condiment is a substance, typically in the form of a spice, aromatic herb, sauce, or mixture of ingredients, used to enhance the flavor of food. Condiments are added to dishes to provide flavor, spiciness, acidity, sweetness, or any other desired taste profile."
+            ]
+        },
+        {
+            "tag": "condimentgreen",
+            "patterns": [
+            "What is a condiment green?",
+            "Definition of a condiment green",
+            "What does the term condiment green mean?"
+            ],
+            "responses": [
+            "A green condiment is a composition of a variety of spices and aromatic plants used in cooking. It is a mixture of different herbs and spices, often fresh, that adds a specific flavor to dishes. Condiment greens are used in dishes with sauces, as marinades for grilled meats or fish, or for frying, among other culinary uses."
+            ]
+        },   
+        {"tag": "cottonhumidity",
+        "patterns": ["What is the soil moisture threshold for growing cotton?" ,"what is the soil moisture threshold for growing cotton?", "how wet is the soil for growing cotton?"
+        , "how much soil moisture is suitable for growing cotton?"],
+        "responses": ["During active growth, the ideal humidity threshold for growing cotton is 60 to 80%. In the morning, the humidity threshold is around 60 to 80%, while at night, it should be maintained between 65 to 75%." ,"During active growth, the ideal humidity threshold is 60 to 80%.", "ideal humidity threshold is 60 to 80% in the morning.", "65 to 75% at the night is required, it thrives in well-drained soil with soil moisture of around 60-80% of capacity."]
+        },
+        
+        {"tag": "wheathumidity",
+        "patterns": ["How wet should the soil be for growing wheat?" ,"what is the soil moisture threshold for growing wheat?", "how wet is the soil for growing wheat?", "how much soil moisture is suitable for growing wheat?", "humidity threshold require for wheat crop?"],
+        "responses": ["Wheat crops thrive in moderately moist soil with a soil moisture content of around 50-60%. The optimum humidity threshold for growing wheat ranges from 50 to 75% during different growth stages." ,"The optimum growing humidity threshold is about 50 to 75%.", "minimum and maximum growth humidity threshold of 50 to 70% in the morning and 60 to 75% at the night, respectively, it thrives in moderately moist soil, with a soil moisture content of around.50-60%."]
+        },
+        
+        {"tag": "millethumidity",
+        "patterns": ["What is the suitable soil moisture level for growing millet?" ,"what is the soil moisture threshold for growing mil?", "how wet is the soil for growing millet?", "how much soil moisture is suitable for growing mil?", "humidity threshold for millet", "temperature require for millet crop?"],
+        "responses": ["The ideal humidity threshold for millet cultivation is between 50 to 70%. Millet crops grow well in soil with a moisture content that falls within this range." ,"Ideal humidity threshold for millet cultivation is between 50 to 70%.", "temperature is between 50 to 70%."]
+        },
+        
+        {"tag": "sugercanehumidity",
+        "patterns": ["How much soil moisture is required for growing sugarcane ?" ,"what is the soil moisture threshold for growing sugercane?", "how wet is the soil for growing sugercane?", "how much soil moisture is suitable for growing sugeercane?","humidity threshold for sugercane"],
+        "responses": ["Sugarcane grows well in a hot and humid climate with a humidity threshold of 70 to 90%. It requires soil moisture within this range for optimal growth." ,"humidity threshold is between 70 to 90%", "It grows well in hot and humid climate with a humidity threshold of 70 to 90% "]
+        },
+        
+        {"tag": "ricehumidity",
+        "patterns": ["what is the soil moisture threshold for growing rice?", "how wet is the soil for growing rice?", "how much soil moisture is suitable for growing rice?","humidity threshold for rice"],
+        "responses": ["The average humidity threshold required for rice cultivation throughout its life period ranges from 90 to 100%. Rice crops thrive in high humidity environments." ,"The average humidity threshold required throughout the life period of the crop ranges from 90 to 100%.", "the average humidity threshold is between 90 to 100%"]
+        },
+        
+        {"tag": "groundnuthumidity",
+        "patterns": ["How wet should the soil be for growing groundnut?","what is the soil moisture threshold for growing groundnut?", "how wet is the soil for growing groundnut?", "how much soil moisture is suitable for growing groundnut?","humidity threshold for groundnut"],
+        "responses": ["Groundnut plants grow best when the mean humidity threshold is between 50 to 70%. Maintaining soil moisture within this range is beneficial for groundnut cultivation.","It seems that plant will grow best when the mean humidity threshold is from 50 to 70%.", "It grows well with a humidity threshold of 50 to 70% "]
+        },
+        
+        
+        {"tag": "maizehumidity",
+        "patterns": ["What is the soil moisture threshold for growing maize?", "what is the soil moisture threshold for growing maize?", "how wet is the soil for growing maize?", "humidity threshold for maize"],
+        "responses": ["Maize crops require a humidity threshold of 50 to 75% for optimal growth. Adequate rainfall, ranging from 50-100 cm, is also suitable for maize cultivation." ,"A humidity threshold of 50 to 75% and 50-100cm rainfall is suitable for its cultivation.", "A humidity threshold of 50 to 75% is suitable for its cultivation."]
+        },
+        
+        {"tag": "tomatohumidity",
+        "patterns": ["How wet is the soil for growing tomatoes?" ,"what is the soil moisture threshold for growing tomato?", "how wet is the soil for growing tomato?", "how much soil moisture is suitable for growing tomato?", "humidity threshold for tomato ", "humidity threshold require for tomato crop?"],
+        "responses": ["During active growth, tomatoes thrive when the humidity threshold is between 60 to 80%. Maintaining soil moisture within this range promotes healthy tomato plants." ,"During active growth, the ideal humidity threshold is 60 to 80%.", "ideal humidity threshold is 60 to 80%."]
+        },
+        
+        {"tag": "onionhumidity",
+        "patterns": ["what is the soil moisture threshold for growing onion?", "how wet is the soil for growing onion?", "how much soil moisture is suitable for growing onion?","humidity threshold for onion"],
+        "responses": ["The optimum humidity threshold for growing onions is about 50 to 70%. Onions prefer soil moisture within this range for optimal development." ,"The optimum growing humidity threshold is about 50 to 70%.", "the ideal humidity threshold is 50 to 70%"]
+        },
+        
+        {"tag": "carrothumidity",
+        "patterns": ["How much soil moisture is suitable for growing carrots?" ,"what is the soil moisture threshold for growing carrot?", "how wet is the soil for growing carrot?", "how much soil moisture is suitable for growing carrot?", "humidity threshold require for carrot crop?"],
+        "responses": ["Carrots grow well with a humidity threshold of around 50 to 60%. Maintaining soil moisture within this range is beneficial for carrot cultivation." ,"Ideal humidity threshold for millet cultivation is between 50 to 60%.", "humidity threshold is between 50 to 60%"]
+        },
+        
+        {
+            "tag": "leekhumidity",
+            "patterns": [
+                "What is the optimal soil moisture threshold for growing leeks?",
+                "How wet should the soil be for growing leeks?",
+                "How much soil moisture is suitable for growing leeks?"
+            ],
+            "responses": [
+                "Leeks thrive when the soil moisture level is maintained between 50% to 60%. This humidity range provides favorable conditions for their growth and development. It's important to ensure that the soil is adequately moist but not waterlogged.",
+                "For optimal growth, leeks require a moderate soil moisture threshold of 50% to 60%. This level of moisture supports their root development and helps them establish a strong foundation."
+            ]
+        },
+        {
+            "tag": "lettucehumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing lettuce?",
+                "How wet is the soil for growing lettuce?",
+                "In which soil humidity does lettuce grow?",
+                "What is the humidity threshold for lettuce?"
+            ],
+            "responses": [
+                "Lettuce requires a relatively higher soil moisture threshold throughout its life cycle. The average humidity threshold for lettuce cultivation ranges from 60% to 70%. This moisture level helps promote healthy leafy growth and prevents the lettuce from becoming stressed or bolting.",
+                "To ensure successful lettuce cultivation, it is important to maintain a soil moisture threshold of 60% to 70%. This humidity range provides the necessary moisture for lettuce plants to develop crisp and tender leaves."
+            ]
+        },
+        {
+            "tag": "cabbagehumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing cabbage?",
+                "How wet is the soil for growing cabbage?",
+                "In which soil humidity does cabbage grow?",
+                "What is the humidity threshold for cabbage?"
+            ],
+            "responses": [
+                "Cabbage tends to grow best when the mean soil humidity threshold is maintained between 60% to 70%. Adequate moisture in the soil is essential for developing firm heads and supporting the overall growth of the cabbage plants.",
+                "For optimal cabbage growth, it is recommended to maintain a humidity threshold of 60% to 70%. This moisture level ensures proper nutrient uptake and helps prevent cabbage plants from experiencing stress or wilting."
+            ]
+        },
+        {
+            "tag": "cucumberhumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing cucumbers?",
+                "How wet is the soil for growing cucumbers?",
+                "What is the humidity threshold for cucumbers?"
+            ],
+            "responses": [
+                "Cucumbers thrive in a relatively high humidity environment. It is ideal to maintain a soil moisture threshold of 70% to 80% for successful cucumber cultivation. This level of humidity ensures optimal growth, fruit development, and overall plant health.",
+                "To achieve optimal results when growing cucumbers, it is recommended to maintain a humidity threshold of 70% to 80%. This high moisture level provides the necessary conditions for cucumbers to develop juicy and flavorful fruits."
+            ]
+        },
+        {
+            "tag": "bellpepperhumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing bell peppers?",
+                "How wet is the soil for growing bell peppers?",
+                "What is the humidity threshold for bell peppers?"
+            ],
+            "responses": [
+                "Bell peppers prefer a moderate soil moisture threshold. Keeping the soil moisture level between 40% to 50% is considered suitable for their cultivation. Adequate moisture in the soil promotes healthy root development and helps prevent issues such as blossom end rot.",
+                "For optimal bell pepper growth, it is recommended to maintain a humidity threshold of 40% to 50%. This moisture level supports the plant's water uptake and nutrient absorption, resulting in healthy foliage and abundant fruit production."
+            ]
+        },
+        {
+            "tag": "ndolehumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing ndolé?",
+                "How wet is the soil for growing ndolé?",
+                "What is the humidity threshold for ndolé?"
+            ],
+            "responses": [
+                "To cultivate ndolé successfully, it is recommended to maintain a soil moisture threshold of 40% to 50%. This humidity range provides favorable conditions for the growth and development of ndolé, which is a popular leafy green vegetable in certain cuisines.",
+                "For optimal growth of ndolé, it is important to maintain a humidity threshold of 40% to 50%. This moisture level supports the plant's leaf production and helps maintain its vibrant green color and delicate flavor."
+            ]
+        },
+        {
+            "tag": "celeryhumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing celery?",
+                "How wet is the soil for growing celery?",
+                "Humidity threshold for celery"],
+                "responses": ["Celery prefers relatively lower soil moisture levels compared to some other vegetables. It grows well when the mean humidity threshold is lower than 50%. It's important to avoid overwatering celery plants to prevent issues such as root rot and yellowing of leaves.",
+                "For successful celery cultivation, it is recommended to maintain a humidity threshold lower than 50%. This lower moisture level helps promote healthy root development and prevents the plant from becoming waterlogged or prone to diseases."]
+        },
+        {
+            "tag": "eggplanthumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing eggplant?",
+                "How wet is the soil for growing eggplant?",
+                "What is the humidity threshold for eggplant?"
+            ],
+            "responses": [
+                "Eggplants thrive in a relatively high humidity environment. It is recommended to maintain a humidity threshold of 60% to 70% for optimal eggplant cultivation. Adequate moisture in the soil promotes vigorous growth, flowering, and fruit set.",
+                "For successful eggplant cultivation, it is important to maintain a humidity threshold of 60% to 70%. This moisture level supports the plant's water requirements, helps prevent wilting, and encourages the development of flavorful and firm eggplants."
+            ]
+        },
+        {
+            "tag": "okrahumidity",
+            "patterns": [
+                "What is the soil moisture threshold for growing okra?",
+                "How wet is the soil for growing okra?",
+                "What is the humidity threshold for okra?"
+            ],
+            "responses": [
+                "Okra prefers a relatively lower humidity environment compared to some other vegetables. A humidity threshold of 30% to 40% is considered suitable for successful okra cultivation. It is important to avoid excessive moisture, as it can lead to issues such as fungus or rot.",
+                "To achieve optimal results when growing okra, it is recommended to maintain a humidity threshold of 30% to 40%. This lower moisture level helps prevent the development of fungal diseases and ensures the overall health and vigor of the okra plants."
+            ]
+        },
 
-    {"tag": "ndoleweather",
-    "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
-    "responses": ["A temperature of 30°C is suitable for its cultivation.", "A temperature of 30°C is suitable for its cultivation."]
-    },
-    {"tag": "ndolecondition",
-    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-    "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
-    },
-
-    {"tag": "celeryweather",
-    "patterns": ["what is temperature for celery crop?", "celery grows in which temperature?", "temperature for celery"],
-    "responses": ["It seems that plant will grow best when the mean temperature is lower than 15°C.", "It grows well with a temperature lower 15°C "]
-    },
-    {"tag": "celerycondition",
-    "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-    "responses": ["Celery production is best in a cool, humid and long growing season with an ample and uniform supply of moisture.", "It grows well with a temperature lower 15°C Celery production is best in a cool, humid and long growing season.", "Celery production is at its best in a cool, humid climate with a long growing season."]
-    },
-
-    {"tag": "eggplantweather",
-    "patterns": ["what is temperature for eggplant crop?", "eggplant grows in which temperature?", "temperature for eggplant"],
-    "responses": ["A temperature lower than 18°C is suitable for its cultivation.", "A temperature lower than 18°C is suitable for its cultivation."]
-    },
-
-
-    {"tag": "eggplantcondition",
-    "patterns": ["which condition is suitable for eggplant crop?", "which condition required for eggplant crop?", "condition suitable for eggplant", "land for eggplant crop"],
-    "responses": ["The eggplant is a warm-weather.", "Climatic conditions suitable for growing Gboma eggplant include a tropical sub-humid climate.",  "It requires well-drained soils with good organic matter content."]
-    },
-
-    {"tag": "okraweather",
-    "patterns": ["what is temperature for okra crop?", "okra grows in which temperature?", "temperature for okra"],
-    "responses": ["A temperature of 15°C- 20°C is suitable for its cultivation.", "A temperature of 15°C- 20°C is suitable for its cultivation."]
-    },
-    {"tag": "okracondition",
-    "patterns": ["which condition is suitable for okra crop?", "which condition required for okra crop?", "condition suitable for okra", "land for okra crop."],
-    "responses": ["Okra requires a long, warm and humid growing climate for better yield.", "Okra needs a long, warm and humid growing climate for better yields.", "For a better yield, okra needs a long, warm and humid growing climate.", "Okra needs a growing climate that is long, warm and humid for a better yield."]
-    },
     {"tag": "best practices ", 
     "patterns": ["How to apply NPK fertilizer?", "give me an idea to apply fertilizer", "Can you tell me how to apply NPK fertilizer?", "What are the ways to apply NPK Fertilizer?", "I need a support to apply NPK fertilizer ", "I need a help to apply NPK fertilizer ", "support me please to apply NPK fertilizer "], 
     "responses": ["In split doses, one half at or shortly after planting and the rest at 2 to 3 months after planting."] 
@@ -273,7 +586,7 @@
     }, 
     {"tag": "best practices ", 
     "patterns": ["What  type of  soil is  best for growing  cassava?", "the best  soil for  cassava?", "what soil  is good  for growing cassava?", "tell me the soil type is good for cassava? "], 
-    "responses": ["light sandy loam or loamy soil."]   
+    "responses": ["Light sandy loam or loamy soil."]   
 }, 
     {"tag": "Fertilizer Application ",
     "patterns": ["Fertilizer Application ", "how to apply fertilizer", "I want to apply fertilizer", "How to apply NPK fertilizer "],

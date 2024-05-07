@@ -99,4 +99,6 @@ Then install all the python libraries with the specified version using the comma
 pip install -r requirements.txt
 ```
 
-Finally, to launch the application, go into the ``my_app_Flask`` folder and run the ``app.py`` file.
+Finally to launch the application, go into the ```my_app_Flask``` folder and run the ```app.py``` file.
+
+N.B : We can also test the operation of the non-multilingual version of the bot, trained only on English data on the terminal, by executing the file ```chat.py``` located in the ```my_app_Flask``` folder.

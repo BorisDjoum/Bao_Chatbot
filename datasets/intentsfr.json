@@ -193,7 +193,7 @@
     "responses": ["En tant qu'intelligence artificielle, je n'ai pas de conscience ni d'expérience personnelle, donc je n'ai pas de journée au sens où les êtres humains l'entendent. Je suis ici pour fournir des informations et aider avec les questions que vous pourriez avoir. Comment puis-je vous assister aujourd'hui ?"]
     },
     {"tag": "définitionagriculture",
-    "patterns": ["Qu'est-ce que l'agriculture ?", "Que signifie cultiver ?", "Qu'est-ce que le secteur agricole ?", "Qu'est-ce que l'agriculture ?"],
+    "patterns": ["Qu'est-ce que l'agriculture ?", "c'est quoi l'agriculture ?", "Que signifie cultiver ?", "Qu'est-ce que le secteur agricole ?", "Qu'est-ce que l'agriculture ?"],
     "responses": ["La science ou la pratique de l'agriculture, comprenant la culture du sol pour la production de cultures et l'élevage d'animaux pour fournir de la nourriture, de la laine et d'autres produits.", "L'agriculture est l'art et la science de cultiver le sol, de faire pousser des cultures et d'élever du bétail.", "L'agriculture peut être définie comme l'art, la science et l'activité commerciale de cultiver des cultures et d'élever du bétail à des fins économiques."]
     },
     {"tag": "demandeaide",
@@ -206,44 +206,52 @@
     },
     {"tag": "climatcoton",
     "patterns": ["Quel temps convient au coton ?", "Quelle est la température idéale pour la culture du coton ?", "Dans quelle température le coton pousse-t-il ?", "Température pour le coton", "Quelle température est nécessaire pour la culture du coton ?"],
-    "responses": ["Pendant la croissance active, la température idéale de l'air est de 21 à 37°C.", "La température idéale de l'air est de 21 à 37°C.", "Une température de 21 à 37°C est requise."]
+    "responses": ["Pendant la croissance active, la température idéale de l'air est de 21 à 37°C. Le coton se développe le mieux dans un climat chaud.", "La température idéale de l'air pour la culture du coton se situe généralement entre 21 et 37°C. Cependant, il peut tolérer des températures plus élevées pendant de courtes périodes. Un climat chaud favorise la croissance du coton et la maturation des capsules.", "Une température de 21 à 37°C est requise pour la culture optimale du coton. Des températures plus élevées peuvent également être tolérées, mais des températures inférieures à 10°C peuvent nuire à la croissance et au rendement du coton."]
     },
 
     {"tag": "conditioncoton",
     "patterns": ["Quelles conditions conviennent à la culture du coton ?", "Quelles conditions sont requises pour la culture du coton ?", "Conditions pour la culture du coton", "Conditions adaptées au coton", "Conditions pour une production accrue de coton"],
-    "responses": ["Il nécessite beaucoup de chaleur et beaucoup de soleil.", "Il préfère un climat chaud et humide.", "Le coton est une plante qui a besoin d'une longue période sans gel."]
+    "responses": ["Le coton nécessite beaucoup de chaleur et beaucoup de soleil pour une croissance optimale. Il préfère un climat chaud et humide. La plante a besoin d'une longue période sans gel pour produire des rendements élevés.", "Pour la culture du coton, il est important d'avoir un climat chaud avec une température élevée et une humidité relative élevée. Le coton pousse mieux dans des régions où la température moyenne diurne se situe entre 24 et 30°C. Il a également besoin de beaucoup de soleil pour une croissance optimale. Par ailleurs, le coton est une plante qui a besoin d'une longue période sans gel, généralement de 160 à 180 jours, pour atteindre sa maturité complète et produire des fibres de coton de haute qualité."]
     },
     {"tag": "climatblé",
     "patterns": ["Quel temps convient au blé ?", "Quelle est la température idéale pour la culture du blé ?", "Dans quelle température le blé pousse-t-il ?", "Température pour le blé", "Quelle température est nécessaire pour la culture du blé ?"],
-    "responses": ["La température de croissance optimale est d'environ 25°C.", "Températures minimales et maximales de croissance de 3° à 4°C et de 30° à 32°C, respectivement."]
+    "responses": ["La température de croissance optimale pour le blé se situe autour de 25°C. Cependant, différentes variétés de blé peuvent avoir des tolérances variables à la chaleur et au froid. Le blé peut tolérer des températures minimales de croissance de 3° à 4°C et des températures maximales de 30° à 32°C, respectivement. Des températures extrêmes, qu'elles soient trop élevées ou trop basses, peuvent avoir un impact négatif sur le rendement du blé.", "Le blé pousse le mieux dans des régions où la température moyenne diurne se situe entre 20 et 25°C. Cependant, il peut tolérer des températures plus élevées et plus basses pendant de courtes périodes. Des températures supérieures à 32°C ou inférieures à 0°C peuvent avoir un effet néfaste sur la croissance du blé."]
     },
     {"tag": "conditionblé",
     "patterns": ["Quelles sont les conditions appropriées pour la culture du blé ?", "Quelles sont les conditions requises pour la culture du blé ?", "Conditions pour la culture du blé", "Conditions favorables au blé", "Conditions pour une production accrue de blé", "Quel type de sol est propice à la culture du blé ?"],
-    "responses": ["Il faut 12 à 15 pouces (31 à 38 centimètres) d'eau pour obtenir une bonne récolte.", "Il a besoin de beaucoup de soleil, surtout lorsque les grains se remplissent.", "Il pousse mieux lorsque le pH du sol est compris entre 6,0 et 7,0."]
+    "responses": ["Pour une culture réussie du blé, il est important de prendre en compte plusieurs conditions. Le blé a besoin d'une quantité adéquate d'eau, généralement de 12 à 15 pouces (31 à 38 centimètres) pendant la saison de croissance, pour obtenir une bonne récolte. Il préfère également un sol bien drainé avec unebonne structure et une teneur en matière organique suffisante. Le pH du sol idéal pour la culture du blé se situe entre 6 et 7. En ce qui concerne la température, le blé pousse le mieux dans des régions où la température moyenne diurne se situe entre 20 et 25°C. Une exposition prolongée à des températures supérieures à 32°C ou inférieures à 0°C peut avoir un impact négatif sur la croissance du blé. Par ailleurs, le blé nécessite également une période de froid (vernalisation) pendant son stade végétatif pour former des têtes et produire des grains de manière optimale."] 
+    },
+    {"tag": "climatmaïs",
+    "patterns": ["Quel temps convient au maïs ?", "Quelle est la température idéale pour la culture du maïs ?", "Dans quelle température le maïs pousse-t-il ?", "Température pour le maïs", "Quelle température est nécessaire pour la culture du maïs ?"],
+    "responses": ["Le maïs est une plante qui préfère les températures chaudes. La température idéale pour la croissance du maïs se situe généralement entre 20 et 35°C. Cependant, le maïs peut tolérer des températures plus élevées pendant de courtes périodes. Des températures inférieures à 10°C peuvent ralentir la croissance du maïs et nuire à son rendement.", "Le maïs pousse le mieux dans des régions où la température moyenne diurne se situe entre 24 et 32°C. Il a besoin de beaucoup de chaleur pour une croissance optimale. Des températures supérieures à 35°C ou inférieures à 10°C peuvent avoir un impact négatif sur la croissance du maïs."]
+    },
+    {"tag": "conditionmaïs",
+    "patterns": ["Quelles conditions conviennent à la culture du maïs ?", "Quelles conditions sont requises pour la culture du maïs ?", "Conditions pour la culture du maïs", "Conditions adaptées au maïs", "Conditions pour une production accrue de maïs", "Quel type de sol est propice à la culture du maïs ?"],
+    "responses": ["Le maïs a besoin de plusieurs conditions pour une croissance optimale. Il préfère un sol bien drainé avec une bonne capacité de rétention d'eau. Un pH du sol compris entre 5,8 et 7,0 est considéré comme idéal pour la culture du maïs. En ce qui concerne la température, le maïs pousse le mieux dans des régions où la température moyenne diurne se situe entre 24 et 32°C. Il nécessite également une période sans gel suffisamment longue pour compléter son cycle de croissance, généralement de 60 à 100 jours. Le maïs a également besoin de beaucoup de lumière solaire pour une croissance optimale."]
     },
     {"tag": "climatmil",
     "patterns": ["Quel temps est propice au millet ?", "Quelle est la température idéale pour la culture du millet ?", "Dans quelle température le millet pousse-t-il ?", "Température pour la culture du millet", "Température requise pour la culture du millet ?"],
-    "responses": ["La température idéale pour la culture du millet est comprise entre 20 °C et 30 °C.", "La température est comprise entre 20 °C et 30 °C."]
+    "responses": ["La température idéale pour la culture du millet est comprise entre 20 °C et 30 °C. Pendant cette période, le millet se développe de manière optimale et produit de bons rendements.", "Le millet pousse le mieux dans des régions où la température varie entre 20 °C et 30 °C. Lorsque la température est inférieure ou supérieure à cette plage, la croissance du millet peut être affectée."]
     },
     {"tag": "conditionmil",
     "patterns": ["Quelles sont les conditions appropriées pour la culture du millet ?", "Quelles sont les conditions requises pour la culture du millet ?", "Conditions pour la culture du millet", "Quel type de sol est propice à la culture du millet ?"],
-    "responses": ["Le millet pousse bien dans des conditions climatiques sèches et chaudes.", "C'est une culture tolérante à la sécheresse qui nécessite une faible pluviométrie annuelle comprise entre 40 cm et 60 cm.", "Je suis là pour répondre à vos questions."]
+    "responses": ["Le millet pousse bien dans des conditions climatiques sèches et chaudes. Il est adapté aux régions présentant une faible pluviométrie annuelle, généralement entre 40 cm et 60 cm. De plus, le millet tolère la sécheresse et peut survivre dans des sols arides. En ce qui concerne le sol, le millet préfère les sols bien drainés et de texture sableuse à moyenne.", "Pour cultiver du millet de manière optimale, il est recommandé de choisir un sol bien drainé avec une texture sableuse à moyenne. Le millet est également adapté aux régions où la pluviométrie annuelle est faible, généralement entre 40 cm et 60 cm."]
     },
     {"tag": "climat de la canne à sucre",
     "patterns": ["Quel temps est propice à la canne à sucre ?", "Quelle est la température idéale pour la culture de la canne à sucre ?", "Dans quelle température la canne à sucre pousse-t-elle ?", "Température pour la canne à sucre"],
-    "responses": ["La température est comprise entre 21°C et 27°C.", "Elle pousse bien dans un climat chaud et humide avec une température de 21°C à 27°C."]
+    "responses": ["La canne à sucre pousse bien dans un climat chaud et humide avec une température moyenne comprise entre 21°C et 27°C. Ces conditions favorisent une croissance optimale de la plante et une accumulation de sucre dans les tiges.", "Pour la culture de la canne à sucre, il est préférable d'avoir un climat chaud et humide avec une température moyenne variant de 21°C à 27°C. Dans ces conditions, la canne à sucre se développe de manière optimale."]
     },
     {"tag": "condition de la canne à sucre",
     "patterns": ["Quelles sont les conditions appropriées pour la culture de la canne à sucre ?", "Quelles sont les conditions requises pour la culture de la canne à sucre ?", "Conditions pour la culture de la canne à sucre", "Conditions favorables à la canne à sucre"],
-    "responses": ["Il faut une pluviométrie annuelle comprise entre 75 cm.", "C'est une culture tropicale et subtropicale.", "Elle pousse bien dans un climat chaud et humide avec une température de 21°C à 27°C."]
+    "responses": ["La canne à sucre prospère dans des conditions climatiques tropicales et subtropicales. Elle nécessite une pluviométrie annuelle d'environ 75 cm. De plus, la canne à sucre préfère un sol bien drainé et fertile pour une croissance optimale.", "Pour la culture de la canne à sucre, il est important d'avoir des conditions climatiques tropicales ou subtropicales. La pluviométrie annuelle doit être d'environ 75 cm pour assurer une irrigation adéquate. En ce qui concerne le sol, la canne à sucre préfère un sol bien drainé et fertile."]
     },
     {"tag": "climatriz",
     "patterns": ["Quel temps est propice au riz ?", "Quelle est la température idéale pour la culture du riz ?", "Dans quelle température le riz pousse-t-il ?", "Température pour le riz"],
-    "responses": ["La température moyenne requise tout au long du cycle de vie de la plante varie de 21 à 37 °C.", "La température moyenne est comprise entre 21 et 37 °C."]
+    "responses": ["La température moyenne requise tout au long du cycle de vie du riz varie de 21 à 37 °C. Cependant, la température optimale pour la croissance du riz se situe généralement entre 24et 32 °C. Des températures plus élevées peuvent affecter négativement la croissance et le rendement du riz.", "Le riz pousse le mieux dans des régions où la température moyenne se situe entre 21 et 37 °C. Cependant, pour une croissance optimale, il est recommandé de maintenir la température entre 24 et 32 °C."]
     },
     {"tag": "conditionriz",
     "patterns": ["Quelles sont les conditions appropriées pour la culture du riz ?", "Quelles sont les conditions requises pour la culture du riz ?", "Conditions pour la culture du riz", "Conditions favorables au riz"],
-    "responses": ["La culture du riz nécessite un climat chaud et humide.", "Le riz pousse sur une variété de sols tels que les limons, les loams et les graviers.", "Il convient mieux aux régions présentant une forte humidité, un ensoleillement prolongé et une alimentation en eau garantie.", "La température moyenne requise tout au long du cycle"]
+    "responses": ["La culture du riz nécessite un climat chaud et humide. Elle se développe le mieux dans des régions avec une forte humidité, un ensoleillement prolongé et une alimentation en eau garantie. En ce qui concerne le sol, le riz peut pousser sur une variété de sols, y compris les limons, les loams et les graviers.", "Pour cultiver du riz de manière optimale, il est nécessaire d'avoir un climat chaud et humide. Le riz prospère dans des régions où l'humidité est élevée, l'ensoleillement est prolongé et l'approvisionnement en eau est adéquat. En ce qui concerne le sol, le riz peut être cultivé avec succès dans différents types de sols tels que les limons, les loams et les graviers."]
     },
 
     {"tag": "quoideneuf",
@@ -251,115 +259,309 @@
     "responses": ["Je me détends simplement.", "Je profite de la journée.", "Je vais bien."]
     },
     {"tag": "climatmaïs",
-    "patterns": ["Quelle est la température pour la culture du maïs ?", "Dans quelle température le maïs pousse-t-il ?", "Température pour le maïs"],
-    "responses": ["Une température de 21°C à 27°C et des précipitations de 50 à 100 cm sont propices à sa culture.", "Une température de 21°C à 27°C est propice à sa culture."]
+    "patterns": ["Quelle est la température optimale pour la culture du maïs ?", "Dans quel intervalle de température le maïs pousse-t-il le mieux ?", "Quelle température favorise la croissance du maïs ?"],
+    "responses": ["La température optimale pour la culture du maïs se situe généralement entre 21°C et 27°C. C'est à cette plage de température que le maïs se développe le mieux. Cependant, il peut également tolérer des températures plus basses et plus élevées dans une certaine mesure. Des précipitations annuelles d'environ 50 à 100 cm sont également bénéfiques pour la culture du maïs."]
     },
     {"tag": "conditionmaïs",
-    "patterns": ["Quelles conditions conviennent à la culture du maïs ?", "Quelles conditions sont nécessaires pour la culture du maïs ?", "Conditions propices au maïs", "Terrain pour la culture du maïs"],
-    "responses": ["Une température de 21°C à 27°C et des précipitations de 50 à 100 cm sont propices à sa culture.", "Des précipitations de 50 à 100 cm sont propices à sa culture.", "Des alternances de pluie et de temps ensoleillé sont idéales pour le maïs.", "Il pousse bien dans les sols alluviaux et les sols rouges bien drainés."]
+    "patterns": ["Quelles sont les conditions idéales pour la culture du maïs ?", "Quelles conditions sont nécessaires pour obtenir une bonne récolte de maïs ?", "Quels types de sol et de climat conviennent au maïs ?", "Quelles sont les exigences de sol et de climat pour cultiver du maïs ?"],
+    "responses": ["Pour obtenir une bonne récolte de maïs, il est important de fournir les bonnes conditions. Le maïs préfère un climat chaud avec une température moyenne entre 21°C et 27°C. Il nécessite également des précipitations annuelles d'environ 50 à 100 cm. En ce qui concerne le sol, le maïs pousse bien dans les sols alluviaux riches en matière organique et les sols rouges bien drainés. Il est recommandé de choisir un terrain avec une bonne exposition au soleil et éviter les zones ombragées pour une croissance optimale du maïs."]
     },
     {"tag": "climattomate",
-    "patterns": ["Quel climat convient aux tomates ?", "Quelle est la température pour la culture de la tomate ?", "Dans quelle température la tomate pousse-t-elle ?", "Température pour la tomate", "Température requise pour la culture de la tomate ?"],
-    "responses": ["Pendant la croissance active, la température de l'air idéale est de 21 à 27°C.", "La température de l'air idéale est de 21 à 27°C.", "Une température de 21 à 27°C est requise."]
+    "patterns": ["Quel est le climat idéal pour la culture des tomates ?", "Quelle température favorise la croissance des tomates ?", "Dans quelle plage de température les tomates poussent-elles le mieux ?"],
+    "responses": ["Les tomates préfèrent un climat avec une température moyenne de l'air comprise entre 21°C et 27°C pendant leur croissance active. C'est à cette température que les tomates se développent le mieux. Une température inférieure à 10°C peut ralentir leur croissance, tandis qu'une température supérieure à 35°C peut entraîner des problèmes de pollinisation et de développement des fruits."]
     },
     {"tag": "conditiontomate",
-    "patterns": ["Quelles conditions conviennent à la culture de la tomate ?", "Quelles conditions sont nécessaires pour la culture de la tomate ?", "Conditions pour la culture de la tomate", "Conditions propices à la tomate", "Conditions pour une production accrue de tomates"],
-    "responses": ["Elle nécessite beaucoup de chaleur et beaucoup de soleil.", "Les tomates sont des plantes qui aiment la chaleur et le soleil. Au moins 8 heures de plein soleil par jour sont essentielles pour une culture saine.", "Les tomates poussent dans des températures relativement chaudes."]
+    "patterns": ["Quelles sont les conditions nécessaires pour cultiver des tomates ?", "Quels sont les besoins en sol et en climat pour la culture des tomates ?", "Quelles conditions favorisent la production maximale de tomates ?"],
+    "responses": ["Les tomates ont besoin de beaucoup de chaleur et de soleil pour une croissance optimale. Elles préfèrent un climat chaud avec au moins 8 heures de plein soleil par jour. En ce qui concerne le sol, les tomates poussent mieux dans des sols fertiles, bien drainés et riches en matière organique. Une rotation des cultures et une irrigation adéquate sont également importantes pour obtenir une production accrue de tomates."]
     },
     {"tag": "climatoignon",
-    "patterns": ["Quel climat convient aux oignons ?", "Quelle est la température pour la culture de l'oignon ?", "Dans quelle température l'oignon pousse-t-il ?", "Température pour l'oignon", "Température requise pour la culture de l'oignon ?"],
-    "responses": ["La température de croissance optimale est d'environ 16°C à 21°C.", "La température idéale de l'air est de 16 à 21°C."]
+    "patterns": ["Quel climat convient le mieux à la culture des oignons ?", "Quelle température favorise la croissance des oignons ?", "Dans quelle plage de température les oignons poussent-ils le mieux ?"],
+    "responses": ["La température de croissance optimale pour les oignons se situe généralement entre 16°C et 21°C. C'est à cette température que les oignons prospèrent le mieux. Ils peuvent tolérer des températures plus basses, mais une température supérieure à 30°C peut affecter leur développement."]
     },
     {"tag": "conditionoignon",
-    "patterns": ["Quelles conditions conviennent à la culture de l'oignon ?", "Quelles conditions sont nécessaires pour la culture de l'oignon ?", "Conditions pour la culture de l'oignon", "Conditions propices à l'oignon", "Conditions pour une production accrue d'oignons", "Quel type de terrain convient à la culture de l'oignon ?"],
-    "responses": ["Les meilleures performances sont obtenues dans un climat doux sans extrêmes de froid et de chaleur et sans précipitations excessives.", "L'oignon est une plante tempérée, mais peut être cultivé dans une large gamme de conditions climatiques telles que le climat tempéré, tropical et subtropical.", "Choisir une zone ensoleillée où vos plants d'oignon ne seront pas ombragés est bénéfique pour vos plantes."]
-    },
-    {"tag": "climatcarotte",
-    "patterns": ["Quel climat convient aux carottes ?", "Quelle est la température pour la culture de la carotte ?", "Dans quelle température la carotte pousse-t-elle ?", "Température pour la carotte", "Température requise pour la culture de la carotte ?"],
-    "responses": ["La température idéale pour la culture des carottes est comprise entre 16°C et 21°C.", "La température est comprise entre 16°C et 21°C."]
-    },
-    {"tag": "conditioncarotte",
-    "patterns": ["Quelles conditions conviennent à la culture du maïs ?", "Quelles conditions sont nécessaires pour la culture du maïs ?", "Conditions pour la culture du maïs", "Quel type de terrain convient aux conditions de culture ?"],
-    "responses": ["Les carottes ont besoin d'un sol bien drainé et bien cultivé.", "Les carottes préfèrent les sols fertiles, bien drainés, profonds et sablonneux, riches en matière organique pour une meilleure croissance.", "Les carottes poussent mieux en plein soleil et par temps frais."]
-    },
-    {"tag": "climatpoireau",
-    "patterns": ["Quel climat convient aux poireaux ?", "Quelle est la température pour la culture du poireau ?", "Dans quelle température le poireau pousse-t-il ?", "Température pour le poireau"],
-    "responses": ["La température est comprise entre 16°C et 21°C", "Il pousse bien dans un climat chaud et humide avec une température de 16°C à 21°C."]
-    },
-    {"tag": "conditionpoireau",
-    "patterns": ["Quelles conditions conviennent à la culture de la canne à sucre ?", "Quelles conditions sont nécessaires pour la culture de la canne à sucre ?", "Conditions pour la culture de la canne à sucre", "Conditions propices à la canne à sucre"],
-    "responses": ["Un sol bien drainé et de texture légère facilite la plantation et la récolte, et contribue à la production de produits propres et présentables.", "Les poireaux préfèrent un sol profond, fertile, friable et riche en matière organique.", "Les poireaux sont des cultures de saison fraîche et conviennent donc bien à la culture dans le Wisconsin."]
-    },
-
-    {"tag": "climatlaitue",
-        "patterns": ["Quel temps convient à la culture de la laitue ?", "Quelle est la température pour la culture de la laitue ?", "À quelle température pousse la laitue ?", "Température pour la laitue"],
-        "responses": ["La température moyenne requise pendant toute la période de croissance de la culture varie de 16°C à 21°C.", "La température moyenne se situe entre 16°C et 21°C."]
-    },
-    {"tag": "conditionlaitue",
-        "patterns": ["Quelles conditions conviennent à la culture de la laitue ?", "Quelles conditions sont requises pour la culture de la laitue ?", "Conditions pour la culture de la laitue", "Conditions favorables à la laitue"],
-        "responses": ["La laitue pousse bien dans un climat chaud.", "La laitue pousse bien dans les climats chauds.", "La laitue pousse bien dans un climat chaud."]
+    "patterns": ["Quelles conditions sont nécessaires pour la culture des oignons ?", "Quels sont les besoins en sol et en climat pour cultiver des oignons ?", "Quelles conditions favorisent une production accrue d'oignons ?"],
+    "responses": ["Les oignons se développent le mieux dans un climat doux sans extrêmes de froid et de chaleur. Ils peuvent être cultivés dans divers types de sols, mais ils préfèrent les sols bien drainés, riches en matière organique et légèrement acides. Pour obtenir une production accrue d'oignons, il est important de fournir un ensoleillement adéquat, une irrigation régulière et un contrôle des mauvaises herbes."]
     },
     {"tag": "climatchou",
-        "patterns": ["Quel temps convient au chou ?", "Quelle est la température pour la culture du chou ?", "À quelle température pousse le chou ?", "Température pour le chou"],
-        "responses": ["Il semble que la plante se développe le mieux lorsque la température moyenne est de 12 à 23°C.", "Elle se développe bien avec une température de 12°C à 23°C."]
+    "patterns": ["Quel est le climat idéal pour la culture des choux ?", "Quelle température favorise la croissance des choux ?", "Dans quelle plage de température les choux poussent-ils le mieux ?"],
+    "responses": ["Les choux prospèrent dans un climat frais à modéré. La température idéale pour la croissance des choux se situe généralement entre 15°C et 20°C. Les choux peuvent tolérer des températures plus basses, mais une chaleur excessive peut affecter leur développement et provoquer une montée à graines précoce."]
     },
-    {"tag": "conditionschou",
-        "patterns": ["Quelles conditions conviennent à la culture du chou ?", "Quelles conditions sont requises pour la culture du chou ?", "Conditions pour la culture du chou", "Conditions favorables au chou"],
-        "responses": ["Le chou est une plante de saison fraîche.", "Le chou préfère des conditions de croissance fraîches et humides."]
+    {"tag": "conditionchou",
+    "patterns": ["Quelles sont les conditions nécessaires pour cultiver des choux ?", "Quels sont les besoins en sol et en climat pour la culture des choux ?", "Quelles conditions favorisent une bonne récolte de choux ?"],
+    "responses": ["Pour cultiver des choux avec succès, il est recommandé de fournir un climat frais à modéré avec des températures autour de 15°C à 20°C. Les choux préfèrent les sols riches en matière organique, bien drainés et légèrement acides. Un ensoleillement partiel est généralement préférable, bien que certaines variétés de choux puissent tolérer une ombre légère. Un arrosage régulier, un paillage et une protection contre les ravageurs sont également importants pour obtenir une bonne récolte de choux."]
     },
-    {"tag": "climatconcombre",
-        "patterns": ["Quelle est la température pour la culture du concombre ?", "À quelle température pousse le concombre ?", "Température pour le concombre"],
-        "responses": ["Une température de 18°C à 22°C.", "Une température de 18°C à 22°C est adaptée à sa culture."]
+    {"tag": "climatfraise",
+    "patterns": ["Quel est le climat idéal pour la culture des fraises ?", "Quelle température favorise la croissance des fraises ?", "Dans quelle plage de température les fraises poussent-elles le mieux ?"],
+    "responses": ["Les fraises préfèrent un climat frais à modéré. La température idéale pour la croissance des fraises se situe généralement entre 16°C et 24°C. Des températures supérieures à 30°C peuvent nuire à la pollinisation et au développement des fruits. Les fraises ont également besoin d'une période de froid hivernal pour stimuler leur croissance et leur production."]
     },
-    {"tag": "conditionsconcombre",
-        "patterns": ["Quelles conditions conviennent à la culture du concombre ?", "Quelles conditions sont requises pour la culture du concombre ?", "Conditions favorables au concombre", "Terrain pour la culture du concombre"],
-        "responses": ["Les plants de concombre sont des cultures à enracinement profond, qui poussent mieux dans un sol bien drainé, fertile, pauvre en sels solubles et exempt de maladies liées au sol.", "La plupart des concombres sont cultivés dans des conditions de pluie.", "Dans la plupart des cas, la production de concombres se fait sous conditions de pluie.", "Dans la plupart des cas, la production de concombres se fait sous condition de pluie."]
-    },
-    {"tag": "climatpoivron",
-        "patterns": ["Quelle est la température pour la culture du poivron ?", "À quelle température pousse le poivron ?", "Température pour le poivron"],
-        "responses": ["Une température de 15°C à 25°C.", "Une température de 15°C à 25°C est adaptée à sa culture."]
-    },
-    {"tag": "conditionspoivron",
-        "patterns": ["Quelles conditions conviennent à la culture du poivron ?", "Quelles conditions sont requises pour la culture du poivron ?", "Conditions favorables au poivron", "Terrain pour la culture du poivron"],
-        "responses": ["Le poivron pousse bien dans les climats chauds.", "Le poivron se développe bien dans un climat chaud.", "Le poivron se développe bien dans un climat chaud."]
-    },
-    {"tag": "climatndolé",
-        "patterns": ["Quelle est la température pour la culture du ndolé ?", "À quelle température pousse le ndolé ?", "Température pour le ndolé"],
-        "responses": ["Une température de 20°C à 30°C.", "Une temp"]
+    {"tag": "conditionfraise",
+    "patterns": ["Quelles sont les conditions nécessaires pour cultiver des fraises ?", "Quels sont les besoins en sol et en climat pour la culture des fraises ?", "Quelles conditions favorisent une bonne récolte de fraises ?"],
+    "responses": ["Pour cultiver des fraises avec succès, il est important de fournir un climat frais à modéré avec des températures autour de 16°C à 24°C pendant la saison de croissance active. Les fraises préfèrent les sols bien drainés, riches en matière organique et légèrement acides. Une exposition au soleil pendant au moins 6 heures par jour est essentielle pour une bonne production de fraises. Un arrosage régulier, un paillage pour contrôler les mauvaises herbes et une protection contre les ravageurs sont également importants pour obtenir une récolte abondante de fraises."]
     },
 
-    {"tag": "conditionmaïs",
-    "patterns": ["Quelles sont les conditions favorables à la culture du maïs ?", "Quelles sont les conditions requises pour cultiver du maïs ?", "Conditions favorables pour le maïs", "Terrain pour la culture du maïs"],
-    "responses": ["Une température de 21°C à 27°C et une pluviométrie de 50 à 100 cm sont propices à sa culture.", "Une pluviométrie de 50 à 100 cm est propice à sa culture.", "Des alternances d'averses et de temps ensoleillé sont idéales pour le maïs.", "Il pousse bien dans les sols alluviaux et les sols rouges bien drainés."]
-    },
-    {"tag": "climatcéleri",
-    "patterns": ["Quelle est la température pour la culture du céleri ?", "À quelle température pousse le céleri ?", "Température pour le céleri"],
-    "responses": ["Il semble que la plante se développe mieux lorsque la température moyenne est inférieure à 15°C.", "Il pousse bien avec une température inférieure à 15°C."]
-    },
-    {"tag": "conditioncéleri",
-    "patterns": ["Quelles sont les conditions favorables à la culture du céleri ?", "Quelles sont les conditions requises pour cultiver du céleri ?", "Conditions favorables pour le céleri", "Terrain pour la culture du céleri"],
-    "responses": ["La production de céleri est optimale dans un climat frais, humide et avec une longue saison de croissance et un apport régulier et suffisant en humidité.", "Il pousse bien avec une température inférieure à 15°C. La production de céleri est optimale dans un climat frais, humide et avec une longue saison de croissance.", "La production de céleri est optimale dans un climat frais et humide avec une longue saison de croissance."]
-    },
+    {"tag": "climatcarotte",
+    "patterns": ["Quel climat convient aux carottes ?", "Quelle est la température pour la culture de la carotte ?", "Dans quelle température la carotte pousse-t-elle ?", "Température pour la carotte", "Température requise pour la culture de la carotte ?"],
+    "responses": ["La température idéale pour la culture des carottes est comprise entre 16°C et 21°C.", "La température est comprise entre 16°C et 21°C. Les carottes poussent mieux dans un climat tempéré avec des saisons douces.", "Les carottes ont besoin d'une température moyenne pour une croissance optimale, et elles peuvent tolérer des températures plus fraîches pendant la germination et les premières étapes de croissance."]
+},
 
-    {"tag": "climataubergine",
-    "patterns": ["Quelle est la température pour la culture de l'aubergine ?", "À quelle température pousse l'aubergine ?", "Température pour l'aubergine"],
-    "responses": ["Une température inférieure à 18°C est propice à sa culture.", "Une température inférieure à 18°C est propice à sa culture."]
-    },
+{"tag": "conditioncarotte",
+    "patterns": ["Quelles conditions conviennent à la culture des carottes ?", "Quelles conditions sont nécessaires pour la culture des carottes ?", "Conditions pour la culture des carottes", "Quel type de terrain convient aux conditions de culture ?"],
+    "responses": ["Les carottes ont besoin d'un sol bien drainé et bien cultivé. Elles préfèrent les sols fertiles, bien drainés, profonds et sablonneux, riches en matière organique pour une meilleure croissance.", "Pour une culture de carottes réussie, il est important de choisir un sol meuble et de bonne qualité. Un sol riche en matière organique et en nutriments favorisera le développement des carottes.", "Les carottes poussent mieux dans des sols légers et meubles, qui permettent une bonne formation des racines.", "Les carottes préfèrent les sols qui sont exemptes de roches, de mauvaises herbes et d'autres obstacles qui pourraient empêcher la croissance des racines."]
+},
+
+{"tag": "climatpoireau",
+    "patterns": ["Quel climat convient aux poireaux ?", "Quelle est la température pour la culture du poireau ?", "Dans quelle température le poireau pousse-t-il ?", "Température pour le poireau"],
+    "responses": ["Le poireau pousse bien dans un climat chaud et humide avec une température de 16°C à 21°C. Les températures plus fraîches sont préférables pendant la période de germination et les stades de croissance initiaux.", "Le poireau est une plante qui préfère les climats tempérés. Une température moyenne de 16°C à 21°C favorise sa croissance optimale.", "La température est un facteur clé pour la culture du poireau. Il se développe mieux dans des températures modérées, évitant à la fois les extrêmes de chaleur et de froid."]
+},
+
+{"tag": "conditionpoireau",
+    "patterns": ["Quelles conditions conviennent à la culture du poireau ?", "Quelles conditions sont nécessaires pour la culture du poireau ?", "Conditions pour la culture du poireau", "Conditions propices à la culture du poireau"],
+    "responses": ["Les poireaux préfèrent un sol profond, fertile, friable et riche en matière organique. Ils se développent mieux dans un sol bien drainé avec un pH compris entre 6 et 7.", "Pour une culture de poireaux réussie, il est important d'avoir un sol bien préparé et bien drainé. Les poireaux ont besoin d'un sol riche en matière organique et en nutriments pour une croissance optimale.", "Il est recommandé de préparer le sol en ameublissant la couche supérieure et en ajoutant du compost ou de l'engrais organique pour améliorer la fertilité et la structure du sol."]
+},
+
+{"tag": "climatlaitue",
+    "patterns": ["Quel temps convient à la culture de la laitue ?", "Quelle est la température pour la culture de la laitue ?", "À quelle température pousse la laitue ?", "Température pour la laitue"],
+    "responses": ["La température moyenne requise pendant toute la période de croissance de la culture de la laitue varie de 16°C à 21°C. Les températures plus fraîches sont préférables pendant la germination et les premières étapes de croissance.", "La laitue pousse bien dans un climat tempéré avec des saisons douces. Elle préfère une température moyenne comprise entre 16°C et 21°C pour une croissance optimale.", "La température est un facteur important pour la culture de la laitue. Elle se développe mieux dans des températures modérées, évitant les extrêmes de chaleur et de froid."]
+},
+
+{"tag": "conditionlaitue",
+    "patterns": ["Quelles conditions conviennent à la culture de la laitue ?", "Quelles conditions sont requises pour la culture de la laitue ?", "Conditions pour la culture de la laitue", "Conditions favorables à la laitue"],
+    "responses": ["La laitue pousse bien dans un climat chaud. Elle préfère un sol fertile, bien drainé et riche en matière organique.", "La laitue se développe mieux dans un sol léger et meuble, qui retient bien l'humidité. Elle nécessite une irrigation régulière pour éviter le stress hydrique.", "Pour une culture réussie de la laitue, il est important d'assurer une bonne préparation du sol en ajoutant du compost ou de l'engrais organique pour améliorer la fertilité.", "La laitue a également besoin d'une exposition adéquate au soleil pour une croissance optimale."]
+},
+
+{"tag": "climatchou",
+    "patterns": ["Quel temps convient au chou ?", "Quelle est la température pour la culture du chou ?", "À quelle température pousse le chou ?", "Température pour le chou"],
+    "responses": ["Le chou se développe le mieux lorsque la température moyenne est comprise entre 12°C et 23°C. Des températures plus fraîches sont préférables pendant la période de germination et les premières étapes de croissance.", "Le chou préfère les climats frais à tempérés. Une température moyenne de 12°C à 23°C favorise sa croissance optimale.", "La température est un facteur clé pour la culture du chou. Il se développe bien dans des températures modérées, évitant à la fois les extrêmes de chaleur et de froid."]
+},
+
+{"tag": "conditionschou",
+    "patterns": ["Quelles conditions conviennent à la culture du chou ?", "Quelles conditions sont requises pour la culture du chou ?", "Conditions pour la culture du chou", "Conditions favorables au chou"],
+    "responses": ["Le chou est une plante de saison fraîche. Il préfère un sol fertile, bien drainé et riche en matière organique.", "Pour une culture de chou réussie, il est important de choisir un sol profond et bien amendé avec du compost ou de l'engrais organique.", "Le chou a également besoin d'un arrosage régulier pour éviter le stress hydrique.", "Il est recommandé de fournir une exposition adéquate au soleil pour favoriser la croissance et le développement du chou."]
+},
+
+{"tag": "climatconcombre",
+    "patterns": ["Quelle est la température pour la culture du concombre ?", "À quelle température pousse le concombre ?", "Température pour le concombre"],
+    "responses": ["Le concombre pousse bien dans une température comprise entre 18°C et 22°C. Des températures plus élevées peuvent favoriser une croissance plus rapide, mais il est important de fournir une protection contre les températures extrêmes.", "Le concombre préfère les climats chauds à tempérés. Une température moyenne de 18°C à 22°C est adaptée à sa culture."]
+},
+
+{"tag": "conditionconcombre",
+    "patterns": ["Quelles conditions conviennent à la culture du concombre ?", "Quelles conditions sont requises pour la culture du concombre ?", "Conditions favorables au concombre", "Terrain pour la culture du concombre"],
+    "responses": ["Les plants de concombre sont des cultures à enracinement profond. Ils poussent mieux dans un sol bien drainé, fertile, pauvre en sels solubles et exempt de maladies liées au sol.", "Le concombre prospère dans des sols riches en matière organique et en nutriments, avec un pH compris entre 6 et 7."]
+
+},
+{"tag": "climatpoivron",
+"patterns": ["Quelle est la température pour la culture du poivron ?", "À quelle température pousse le poivron ?", "Température pour le poivron"],
+"responses": ["Une température de 15°C à 25°C est adaptée à la culture du poivron. Dans cette plage de température, le poivron se développe bien et produit des fruits de qualité.", "Pour la culture du poivron, il est recommandé de maintenir une température comprise entre 15°C et 25°C. Cela favorise la croissance et la fructification de la plante."]
+},
+{"tag": "conditionpoivron",
+"patterns": ["Quelles conditions conviennent à la culture du poivron ?", "Quelles conditions sont requises pour la culture du poivron ?", "Conditions favorables au poivron", "Terrain pour la culture du poivron"],
+"responses": ["Le poivron se développe bien dans les climats chauds. Il a besoin de beaucoup de soleil pour une croissance optimale. Il est recommandé de le cultiver dans un sol bien drainé et riche en matière organique. Une irrigation régulière et une protection contre les gelées sont également importantes pour la culture du poivron.", "Pour la culture du poivron, les conditions suivantes sont nécessaires : un climat chaud, une exposition ensoleillée, un sol bien drainé et riche en matière organique, un arrosage régulier et une protection contre les gelées."]
+},
+{"tag": "climatndolé",
+"patterns": ["Quelle est la température pour la culture du ndolé ?", "À quelle température pousse le ndolé ?", "Température pour le ndolé"],
+"responses": ["Le ndolé se développe mieux dans une plage de température allant de 20°C à 30°C. C'est une plante qui aime la chaleur et qui prospère dans les climats tropicaux et subtropicaux.", "Pour la culture du ndolé, il est recommandé de maintenir une température comprise entre 20°C et 30°C. Dans cette plage de température, le ndolé pousse activement et produit de bonnes récoltes."]
+},
+
+{"tag": "conditionmaïs",
+"patterns": ["Quelles sont les conditions favorables à la culture du maïs ?", "Quelles sont les conditions requises pour cultiver du maïs ?", "Conditions favorables pour le maïs", "Terrain pour la culture du maïs"],
+"responses": ["Le maïs a besoin d'une température moyenne comprise entre 21°C et 27°C pour une croissance optimale. Il nécessite également une pluviométrie d'environ 50 à 100 cm répartie de manière régulière pendant la saison de croissance. En termes de sol, le maïs pousse bien dans les sols alluviaux et les sols rouges bien drainés.", "Pour obtenir de bonnes récoltes de maïs, les conditions suivantes sont favorables : une température moyenne de 21°C à 27°C, une pluviométrie d'environ 50 à 100 cm répartie de manière régulière, et des sols alluviaux ou des sols rouges bien drainés."]
+},
+{"tag": "climatcéleri",
+"patterns": ["Quelle est la température pour la culture du céleri ?", "À quelle température pousse le céleri ?", "Température pour le céleri"],
+"responses": ["Le céleri se développe mieux lorsque la température moyenne est inférieure à 15°C. Cependant, il peut tolérer des températures plus élevées pendant de courtes périodes. Il est important de protéger le céleri contre les gelées.", "Pour la culture du céleri, il est préférable de maintenir une température inférieure à 15°C. Cela favorise la croissance et la formation de tiges croquantes."]
+},
+{"tag": "conditioncéleri",
+"patterns": ["Quelles sont les conditions favorables à la culture du céleri ?", "Quelles sont les conditions requises pour cultiver du céleri ?", "Conditions favorables pour le céleri", "Terrain pour la culture du céleri"],
+"responses": ["La production de céleri est optimale dans un climat frais, humide et avec une longue saison de croissance. Le céleri nécessite un apport régulier et suffisant en humidité. En ce qui concerne le sol, il préfère les sols riches en matière organique, bien drainés et légèrement acides.", "Pour obtenir de bons résultats avec la culture du céleri, il est recommandé de choisir un terrain qui offre un climat frais et humide, une longue saison de croissance et un sol riche en matière organique et bien drainé."]
+},
+
+{"tag": "climataubergine",
+"patterns": ["Quelle est la température pour la culture de l'aubergine ?", "À quelle température pousse l'aubergine ?", "Température pour l'aubergine"],
+"responses": ["L'aubergine préfère une température inférieure à 18°C pour une croissance optimale. Les températures plus élevées peuvent affecter la pollinisation et la formation des fruits. Il est important de protéger les plants d'aubergine contre les gelées tardives.", "Pour cultiver avec succès des aubergines, il est recommandé de maintenir une température inférieure à 18°C. Cela favorise la croissance saine des plantes et la production de fruits de qualité."]
+},
 
 
-    {"tag": "conditionaubergine",
-    "patterns": ["Quelles sont les conditions favorables à la culture de l'aubergine ?", "Quelles sont les conditions requises pour cultiver de l'aubergine ?", "Conditions favorables pour l'aubergine", "Terrain pour la culture de l'aubergine"],
-    "responses": ["L'aubergine est une plante qui aime les climats chauds.", "Les conditions climatiques propices à la culture de l'aubergine comprennent un climat tropical sub-humide.",  "Elle nécessite des sols bien drainés avec une bonne teneur en matière organique."]
-    },
+{"tag": "conditionaubergine",
+"patterns": ["Quelles sont les conditions favorables à la culture de l'aubergine ?", "Quelles sont les conditions requises pour cultiver de l'aubergine ?", "Conditions favorables pour l'aubergine", "Terrain pour la culture de l'aubergine"],
+"responses": ["L'aubergine est une plante qui aime les climats chauds. Elle nécessite une exposition ensoleillée pour une croissance optimale. En ce qui concerne le sol, elle préfère les sols bien drainés avec une bonne teneur en matière organique. Une irrigation régulière et une protection contre les ravageurs sont également importantes pour la culture de l'aubergine.", "Pour obtenir de bons résultats avec la culture de l'aubergine, il est important de fournir les conditions suivantes : un climat chaud, une exposition ensoleillée, un sol bien drainé et riche en matière organique, un arrosage régulier et une protection contre les ravageurs."]
+},
 
-    {"tag": "climatgombo",
-    "patterns": ["Quelle est la température pour la culture du gombo ?", "À quelle température pousse le gombo ?", "Température pour le gombo"],
-    "responses": ["Une température de 15°C à 20°C est propice à sa culture.", "Une température de 15°C à 20°C est propice à sa culture."]
-    },
-    {"tag": "conditiongombo",
-    "patterns": ["Quelles sont les conditions favorables à la culture du gombo ?", "Quelles sont les conditions requises pour cultiver du gombo ?", "Conditions favorables pour le gombo", "Terrain pour la culture du gombo"],
-    "responses": ["Le gombo nécessite un climat chaud, long et humide pour un meilleur rendement.", "Le gombo a besoin d'un climat chaud, long et humide pour un meilleur rendement.", "Pour un meilleur rendement, le gombo a besoin d'un climat long, chaud et humide."]
-    },
+{"tag": "climatgombo",
+"patterns": ["Quelle est la température pour la culture du gombo ?", "À quelle température pousse le gombo ?", "Température pour le gombo"],
+"responses": ["Le gombo se développe bien dans une plage de température allant de 15°C à 20°C. C'est une plante qui préfère les climats chauds et a besoin de chaleur pour une croissance optimale.", "Pour la culture du gombo, il est recommandé de maintenir une température comprise entre 15°C et 20°C. Dans cette plage de température, le gombo pousse activement et produit des fruits de qualité."]
+},
+{"tag": "conditiongombo",
+"patterns": ["Quelles sont les conditions favorables à la culture du gombo ?", "Quelles sont les conditions requises pour cultiver du gombo ?", "Conditions favorables pour le gombo", "Terrain pour la culture du gombo"],
+"responses": ["Le gombo nécessite un climat chaud, long et humide pour un meilleur rendement. Il préfère les sols riches en matière organique, bien drainés et légèrement acides. Une irrigation régulière et une protection contre les ravageurs sont également importantes pour la culture du gombo.", "Pour obtenir de bonnes récoltes de gombo, les conditions suivantes sont nécessaires : un climat chaud, long et humide, des sols riches en matière organique et bien drainés, un arrosage régulier et une protection contre les ravageurs."]
+},
+
+{
+    "tag": "climat pomme de terre",
+    "patterns": ["Quelles conditions météorologiques conviennent à la culture des pommes de terre ?", "Quelle est la température optimale pour la culture des pommes de terre ?", "Dans quelle plage de température les pommes de terre poussent-elles ?"],
+    "responses": ["Les pommes de terre poussent mieux dans des conditions météorologiques fraîches. La plage de température optimale pour la culture des pommes de terre se situe entre 15°C et 20°C. Les températures plus fraîches favorisent une croissance saine des plants de pommes de terre et le développement des tubercules.", "Les pommes de terre prospèrent dans une plage de température de 15°C à 20°C. Cette plage de température offre des conditions favorables à la croissance et au rendement des cultures de pommes de terre."]
+  },
+  {
+    "tag": "condition pomme de terre",
+    "patterns": ["Quelles sont les conditions adaptées à la culture des pommes de terre ?", "Quelles sont les conditions requises pour la culture des pommes de terre ?", "Quel type de sol convient à la culture des pommes de terre ?"],
+    "responses": ["Les pommes de terre nécessitent un sol bien drainé, léger et fertile pour leur croissance. Les sols limoneux sableux ou limoneux avec une bonne teneur en matière organique sont considérés comme idéaux pour la culture des pommes de terre. De plus, les pommes de terre préfèrent un climat frais et une exposition solaire adéquate pour une croissance optimale et la formation de tubercules.", "Les conditions idéales pour la culture des pommes de terre comprennent un sol bien drainé, léger et fertile. Les sols limoneux sableux ou limoneux avec une bonne teneur en matière organique sont préférés. Les pommes de terre prospèrent également dans un climat frais avec une exposition solaire adéquate."]
+  },
+
+  {
+    "tag": "climatpiment",
+    "patterns": [
+      "Quelles conditions météorologiques conviennent à la culture des piments?",
+      "Quelle est la température optimale pour la culture des piments?",
+      "Dans quelle plage de température les piments poussent-ils?",
+      "Quels sont les besoins en lumière pour la culture des piments?",
+      "Combien de pluie les piments nécessitent-ils?"
+    ],
+    "responses": [
+      "Les piments poussent mieux dans des conditions météorologiques chaudes. La plage de température optimale pour la culture des piments se situe entre 25°C et 30°C. Ils ont besoin d'au moins 6 heures de lumière directe par jour. Les piments nécessitent environ 500 à 700 millimètres de pluie par an."
+    ]
+  },
+  {
+    "tag": "climatcacao",
+    "patterns": [
+      "Quelles conditions météorologiques conviennent à la culture du cacao?",
+      "Quelle est la température optimale pour la culture du cacao?",
+      "Dans quelle plage de température le cacao pousse-t-il?",
+      "Quels sont les besoins en lumière pour la culture du cacao?",
+      "Combien de pluie le cacao nécessite-t-il?"
+    ],
+    "responses": [
+      "Le cacao prospère dans des conditions météorologiques chaudes et humides. La plage de température optimale pour la culture du cacao se situe généralement entre 21°C et 25°C. Il nécessite une exposition à l'ombre partielle. Le cacao nécessite environ 1 500 à 2 000 millimètres de pluie par an."
+    ]
+  },
+      {
+        "tag": "conditionpiment",
+        "patterns": [
+          "Quel est le pH du sol adapté à la culture des piments?",
+          "Quels sont les besoins en eau pour la culture des piments?",
+          "Quels sont les types de sol recommandés pour la culture des piments?",
+          "Quelles sont les exigences de fertilité du sol pour les piments?"
+        ],
+        "responses": [
+          "Le pH du sol idéal pour les piments se situe entre 6 et 7. Les piments nécessitent un arrosage régulier, mais il est important de ne pas trop les arroser pour éviter le pourrissement des racines. Ils poussent bien dans les sols bien drainés et riches en matière organique. Les piments préfèrent les sols légèrement fertiles."
+        ]
+      },
+      {
+        "tag": "conditioncacao",
+        "patterns": [
+          "Quel est le pH du sol adapté à la culture du cacao?",
+          "Quels sont les besoins en eau pour la culture du cacao?",
+          "Quels sont les types de sol recommandés pour la culture du cacao?",
+          "Quelles sont les exigences de fertilité du sol pour le cacao?"
+        ],
+        "responses": [
+          "Le pH du sol idéal pour le cacao se situe entre 6 et 7. Le cacao nécessite un arrosage régulier pour maintenir une humidité constante du sol, mais il est important de ne pas trop l'arroser pour éviter l'engorgement. Il pousse bien dans les sols riches en matière organique et bien drainés. Le cacao nécessite un sol fertile avec une bonne teneur en nutriments."
+        ]
+      },
+
+        {
+          "tag": "condiment",
+          "patterns": [
+            "Qu'est-ce qu'un condiment ?",
+            "Définition d'un condiment",
+            "Que signifie le terme condiment ?"
+          ],
+          "responses": [
+            "Un condiment est une substance, généralement sous forme d'épice, d'herbe aromatique, de sauce ou de mélange d'ingrédients, utilisée pour relever le goût des aliments. Les condiments sont ajoutés aux plats pour leur donner de la saveur, de la piquant, de l'acidité, de la douceur ou tout autre profil de goût souhaité."
+          ]
+        },
+        {
+          "tag": "condimentvert",
+          "patterns": [
+            "Qu'est-ce qu'un condiment vert ?",
+            "Définition d'un condiment vert",
+            "Que signifie le terme condiment vert ?"
+          ],
+          "responses": [
+            "Un condiment vert est une composition d'un ensemble d'épices et de plantes aromatiques utilisée dans la cuisine. Il s'agit d'un mélange de différentes herbes et épices, souvent fraîches, qui ajoute une saveur spécifique aux plats. Les condiments verts sont utilisés dans les plats en sauce, comme marinade pour les grillades de viandes ou de poissons, ou pour les fritures, entre autres utilisations culinaires."
+          ]
+        },
+
+        {
+            "tag": "humidite_coton",
+            "patterns": [
+              "Quelle est l'importance de l'humidité du sol pour la culture du coton ?"
+            ],
+            "responses": [
+              "L'humidité du sol est cruciale pour la culture du coton. Un niveau d'humidité adéquat permet au coton de se développer correctement, d'absorber les nutriments nécessaires et d'optimiser le rendement."
+            ]
+          },
+          {
+            "tag": "humidite_ble",
+            "patterns": [
+              "Quel est le rôle de l'humidité du sol dans la culture du blé ?"
+            ],
+            "responses": [
+              "L'humidité du sol joue un rôle essentiel dans la culture du blé. Un sol modérément humide, maintenu dans une plage optimale, favorise la croissance saine du blé et évite les problèmes de stress hydrique ou de maladies fongiques."
+            ]
+          },
+          {
+            "tag": "humidite_millet",
+            "patterns": [
+              "Quel est le seuil d'humidité du sol recommandé pour la culture du millet ?"
+            ],
+            "responses": [
+              "Pour la culture du millet, un sol modérément humide est généralement préférable. La plage recommandée pour l'humidité du sol se situe entre 50 et 70 %. Cependant, cela peut varier en fonction de la variété de millet et des conditions climatiques spécifiques."
+            ]
+          },
+          {
+            "tag": "humidite_canne_sucre",
+            "patterns": [
+              "Comment l'humidité du sol affecte-t-elle la culture de la canne à sucre ?"
+            ],
+            "responses": [
+              "L'humidité du sol joue un rôle crucial dans la culture de la canne à sucre. Un niveau d'humidité du sol compris entre 70 et 90 % est généralement recommandé pour favoriser une croissance vigoureuse et des rendements élevés. Cependant, un drainage adéquat est également nécessaire pour éviter l'engorgement du sol."
+            ]
+          },
+          {
+            "tag": "humidite_riz",
+            "patterns": [
+              "Quel est le seuil d'humidité du sol requis pour la culture du riz ?"
+            ],
+            "responses": [
+              "Le riz nécessite une quantité élevée d'humidité du sol. Un niveau d'humidité moyen de 90 à 100 % est requis tout au long du cycle de vie de la culture. La gestion appropriée de l'eau est essentielle pour maintenir ces niveaux d'humidité adéquats et assurer un rendement optimal."
+            ]
+          },
+
+          {"tag": "humidite_de_l'arachide",
+            "patterns": [
+                "Quelle est l'importance de l'humidité du sol pour la culture de l'arachide ?",
+                "Quels sont les besoins d'humidité du sol pour l'arachide ?",
+                "Comment l'humidité du sol affecte-t-elle la croissance de l'arachide ?"
+            ],
+            "responses": [
+              "Le riz nécessite une quantité élevée d'humidité du sol. Un niveau d'humidité moyen de 90 à 100 % est requis tout au long du cycle de vie de la culture. La gestion appropriée de l'eau est essentielle pour maintenir ces niveaux d'humidité adéquats et assurer un rendement optimal."
+            ]
+        },
+            {"tag": "humidite du sol maïs",
+            "patterns": ["Quel est le seuil d'humidité du sol pour cultiver du maïs ?", "À quel point le sol doit-il être humide pour cultiver du maïs ?", "Seuil d'humidité pour le maïs"],
+            "responses": ["L'humidité du sol est cruciale pour la culture de l'arachide. Pendant la période de croissance active, l'arachide nécessite un niveau d'humidité adéquat dans le sol pour un développement optimal. Un sol bien drainé avec une humidité du sol d'environ 50 à 75 % de sa capacité est généralement recommandé. Cela permet aux racines de l'arachide d'absorber l'eau nécessaire à la formation des gousses et des graines. Un niveau d'humidité inadéquat peut entraîner des problèmes tels qu'une mauvaise nouaison, un rendement réduit et une augmentation du risque de maladies."]
+            },
+            
+            {"tag": "humidite du sol tomate",
+            "patterns": ["Quel est le seuil d'humidité du sol pour cultiver des tomates ?", "À quel point le sol doit-il être humide pour cultiver des tomates ?", "Quelle est la quantité d'humidité du sol adaptée à la culture des tomates ?", "Seuil d'humidité pour les tomates", "Quel est le seuil d'humidité requis pour la culture des tomates ?"],
+            "responses": ["Les tomates ont besoin d'une humidité adéquate du sol pour une croissance saine. Pendant la phase de croissance active, le seuil d'humidité idéal pour les tomates se situe généralement entre 60 et 80 %. Cela signifie que le sol doit contenir entre 60 et 80 % de sa capacité maximale en eau pour répondre aux besoins hydriques des plantes. Il est important de maintenir un bon équilibre d'humidité dans le sol en évitant à la fois l'excès d'humidité et la sécheresse. Une surveillance régulière de l'humidité du sol et une irrigation appropriée sont nécessaires pour fournir aux tomates la quantité d'eau dont elles ont besoin tout au long de leur cycle de croissance."]
+            },
+            
+            {"tag": "humidite du sol oignon",
+            "patterns": ["Quel est le seuil d'humidité du sol pour cultiver des oignons ?", "À quel point le sol doit-il être humide pour cultiver des oignons ?", "Quelle est la quantité d'humidité du sol adaptée à la culture des oignons ?", "Seuil d'humidité pour les oignons"],
+            "responses": ["Les oignons ont des exigences spécifiques en matière d'humidité du sol pour une croissance optimale. Le seuil d'humidité optimal pour la culture des oignons est généralement d'environ 50 à 70 %. Cela signifie que le sol doit contenir entre 50 et 70 % de sa capacité totale en eau. Une surveillance régulière de l'humidité du sol est essentielle pour ajuster l'irrigation en conséquence et maintenir un bon équilibre hydrique. Il est important de noter que les besoins en eau des oignons peuvent varier en fonction de la variété, du stade de croissance et des conditions climatiques locales. Une irrigation appropriée et une gestion adéquate de l'humidité du sol contribueront à favoriser une croissance saine et une récolte de qualité."]
+            },
+            
+            {"tag": "humidite du sol carrotte",
+            "patterns": ["Quel est le seuil d'humidité du sol pour cultiver des carottes ?", "À quel point le sol doit-il être humide pour cultiver des carottes ?", "Quelle est la quantité d'humidité du sol adaptée à la culture des carottes ?", "Seuil d'humidité requis pour la culture des carottes ?"],
+            "responses": ["Les carottes ont besoin d'un niveau adéquat d'humidité du sol pour leur croissance optimale. Le seuil d'humidité idéal pour la culture des carottes se situe généralement entre70 et 80 %. Cela signifie que le sol doit contenir entre 70 et 80 % de sa capacité maximale en eau pour répondre aux besoins hydriques des carottes. Une irrigation régulière est nécessaire pour maintenir cette humidité du sol, surtout pendant les périodes sèches. Cependant, il est important de veiller à ne pas trop arroser les carottes, car un excès d'humidité peut entraîner des problèmes tels que la pourriture des racines. La surveillance de l'humidité du sol et l'adaptation de l'irrigation en fonction des besoins spécifiques de la culture des carottes sont essentielles pour favoriser une croissance saine et des racines de qualité."]
+            },
+            
+            {"tag": "humidite du sol pomme de terre",
+            "patterns": ["Quel est le seuil d'humidité du sol pour cultiver des pommes de terre ?", "À quel point le sol doit-il être humide pour cultiver des pommes de terre ?", "Quelle est la quantité d'humidité du sol adaptée à la culture des pommes de terre ?", "Seuil d'humidité requis pour la culture des pommes de terre ?"],
+            "responses": ["Les pommes de terre ont des exigences spécifiques en matière d'humidité du sol pour une croissance optimale. Le seuil d'humidité idéal pour la culture des pommes de terre se situe généralement entre 60 et 80 %. Cela signifie que le sol doit contenir entre 60 et 80 % de sa capacité totale en eau. Un sol trop sec peut entraîner un mauvais développement des tubercules, tandis qu'un excès d'humidité peut favoriser le développement de maladies fongiques. Il est important de maintenir un équilibre hydrique approprié en adaptant l'irrigation en fonction des besoins spécifiques des pommes de terre, des conditions météorologiques et de la phase de croissance. La surveillance régulière de l'humidité du sol et une gestion adéquate de l'irrigation contribueront à favoriser une croissance saine et une récolte de pommes de terre de qualité."]
+            },
+
+
 
     {"tag": "Meilleures pratiques",
         "patterns": ["Comment appliquer un engrais NPK ?", "Donnez-moi une idée pour appliquer de l'engrais", "Pouvez-vous me dire comment appliquer un engrais NPK ?", "Quelles sont les méthodes pour appliquer un engrais NPK ?", "J'ai besoin d'un soutien pour appliquer un engrais NPK", "J'ai besoin d'aide pour appliquer un engrais NPK", "S'il vous plaît, aidez-moi à appliquer un engrais NPK"],
