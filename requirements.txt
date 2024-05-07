@@ -5,3 +5,4 @@ nltk ==3.8.1
 colorama
 googletrans ==3.0.0
 translate ==3.6.1
+fasttext-langdetect ==1.0.5
